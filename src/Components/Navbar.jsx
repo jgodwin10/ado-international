@@ -18,7 +18,7 @@ const Navbar = () => {
           <NavLink>Hotel</NavLink>
           <NavLink>House Keeping</NavLink>
         </div>
-        <button className="border-[2px] hover:scale-[1.1] duration-500 border-[#E78707] text-[#E78707] w-[197px] h-[68px] rounded-full">
+        <button className="border-[2px] text-[22px] font-bold hover:scale-[1.1] duration-500 border-[#E78707] text-[#E78707] w-[197px] h-[68px] rounded-full">
           Flea Market
         </button>
       </div>

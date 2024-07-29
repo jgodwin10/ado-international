@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // PAGES IMPORT
 import Home from "./Pages/Home.jsx";
 import Contact from "./Pages/Contact.jsx";
+import AboutUs from "./Pages/AboutUs.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs />,
       },
     ],
   },
