@@ -5,11 +5,13 @@ import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <>
       <TopBar />
-      <Navbar />
-      <Outlet />
-    </div>
+      <div className="mt-24">
+        <Navbar />
+        <Outlet />
+      </div>
+    </>
   );
 };
 
