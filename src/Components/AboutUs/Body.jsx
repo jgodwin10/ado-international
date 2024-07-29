@@ -1,4 +1,8 @@
 import React from "react";
+import Img from "../../Images/first.png";
+import Img1 from "../../Images/second.png";
+import Img2 from "../../Images/third.png";
+import Img3 from "../../Images/four.png";
 
 const Body = () => {
   return (
@@ -25,6 +29,77 @@ const Body = () => {
           <p className="text-[18px] font-medium">
             Strategic objectives guiding our journey towards success and growth.
           </p>
+        </div>
+        <div className="absolute -bottom-[35%] left-0 w-full">
+          <div className="max-w-[1700px] mx-auto grid grid-cols-2 gap-8 md:px-[50px] px-6">
+            <div className="w-full space-y-7 py-16 px-20 about h-[276px] bg-white">
+              <h2 className="text-[22px] font-semibold text-black">
+                Our Mission
+              </h2>
+              <p className="text-[18px] font-medium">
+                To provide a welcoming dining experience that celebrates the
+                rich culinary traditions of our region, delivering authentic,
+                high-quality meals that make every customer feel at home.
+              </p>
+            </div>
+            <div className="w-full space-y-7 py-16 px-20 about h-[276px] bg-white">
+              <h2 className="text-[22px] font-semibold text-black">
+                Our Vision
+              </h2>
+              <p className="text-[18px] font-medium">
+                To become a leading national and international brand recognized
+                for its authentic cuisine, exceptional service, and commitment
+                to community and sustainability, while continuously innovating
+                to meet the evolving tastes and preferences of our customers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="pt-[250px] max-w-[1700px] grid grid-cols-4 gap-x-[30px] pb-3 md:px-[59px] px-6 mx-auto">
+        <div className="flex items-center gap-[13px]">
+          <img className="size-[68px]" src={Img} alt="" />
+          <div className="space-y-[13px]">
+            <h2 className="text-[22px] font-semibold text-black">
+              Fast Shipping
+            </h2>
+            <p className="text-[16px] font-medium">
+              Fast and reliable shipping to you
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-[13px]">
+          <img className="size-[68px]" src={Img1} alt="" />
+          <div className="space-y-[13px]">
+            <h2 className="text-[22px] font-semibold text-black">
+              Online Support
+            </h2>
+            <p className="text-[16px] font-medium">
+              24 hours a day, 7 days a week
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-[13px]">
+          <img className="size-[68px]" src={Img2} alt="" />
+          <div className="space-y-[13px]">
+            <h2 className="text-[22px] font-semibold text-black">
+              Flexible Payment
+            </h2>
+            <p className="text-[16px] font-medium">
+              Pay with Multiple Credit Cards
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-[13px]">
+          <img className="size-[68px]" src={Img3} alt="" />
+          <div className="space-y-[13px]">
+            <h2 className="text-[22px] font-semibold text-black">
+              Money Guarantee
+            </h2>
+            <p className="text-[16px] font-medium">
+              Within 7 days for an exchange.
+            </p>
+          </div>
         </div>
       </div>
     </div>
