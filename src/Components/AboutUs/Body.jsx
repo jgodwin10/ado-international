@@ -23,30 +23,30 @@ const Body = () => {
           they are.
         </p>
       </div>
-      <div className="bg-[url('./Images/about.png')] bg-cover bg-center before:contents-[''] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#E7870799] relative h-[428px] w-full">
+      <div className="bg-[url('./Images/about.png')] bg-cover bg-center before:contents-[''] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#E7870799] relative max-h-[430px] min-h-[428px] w-full">
         <div className="flex z-[99999] flex-col gap-y-5 items-center text-white pt-28 absolute top-0 left-0 w-full h-full">
           <h2 className="text-[45px] font-semibold">Company Goals & Ethics</h2>
           <p className="text-[18px] font-medium">
             Strategic objectives guiding our journey towards success and growth.
           </p>
         </div>
-        <div className="absolute -bottom-[35%] left-0 w-full">
+        <div className="absolute -bottom-[6.9vw] 2xl:-bottom-[35%] left-0 w-full">
           <div className="max-w-[1700px] mx-auto grid grid-cols-2 gap-8 md:px-[50px] px-6">
-            <div className="w-full space-y-7 py-16 px-20 about h-[276px] bg-white">
+            <div className="w-full space-y-7 2xl:py-16 2xl:px-20 py-[3vw] px-[4vw] about bg-white">
               <h2 className="text-[22px] font-semibold text-black">
                 Our Mission
               </h2>
-              <p className="text-[18px] font-medium">
+              <p className="text-[.9vw] 2xl:text-[18px] font-medium">
                 To provide a welcoming dining experience that celebrates the
                 rich culinary traditions of our region, delivering authentic,
                 high-quality meals that make every customer feel at home.
               </p>
             </div>
-            <div className="w-full space-y-7 py-16 px-20 about h-[276px] bg-white">
+            <div className="w-full space-y-7 2xl:py-16 2xl:px-20 py-[3vw] px-[4vw] about bg-white">
               <h2 className="text-[22px] font-semibold text-black">
                 Our Vision
               </h2>
-              <p className="text-[18px] font-medium">
+              <p className="text-[.9vw] 2xl:text-[18px] font-medium">
                 To become a leading national and international brand recognized
                 for its authentic cuisine, exceptional service, and commitment
                 to community and sustainability, while continuously innovating

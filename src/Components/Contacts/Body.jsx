@@ -9,19 +9,19 @@ const Body = () => {
 
         <div className="w-full before:contents-[''] h-[1125px] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#000000D9] relative ">
           <img className="w-full h-full object-cover" src={Img} alt="" />
-          <div className="absolute top-0  py-16 text-white left-0 w-full h-full">
+          <div className="absolute top-0 px-10 py-16 text-white left-0 w-full h-full">
             <div className="max-w-[651px] space-y-[76px] pr-5 mx-auto">
               <div className="space-y-[30.41px]">
-                <h2 className="text-[47.19px] font-semibold">
+                <h2 className="xl:text-[47.19px] lg:text-[38px] font-semibold">
                   Reach Out to Us
                 </h2>
-                <p className="text-[18.87px]">
+                <p className="xl:text-[18.87px]">
                   Fill in the contact form with the appropriate information to
                   send us a message and we will get back to you in 24 hours
                 </p>
               </div>
-              <div className="space-y-[26.21px] text-[18.87px]">
-                <h3 className="text-[29.36px] font-semibold">
+              <div className="space-y-[26.21px] xl:text-[18.87px]">
+                <h3 className="xl:text-[29.36px] lg:text-[24px] font-semibold">
                   Contact Details
                 </h3>
                 <p>No 01 Company Address, State, Country.</p>
@@ -31,12 +31,12 @@ const Body = () => {
                 </p>
                 <p>info@companydomain.com</p>
               </div>
-              <div className="space-y-[26.21px] text-[18.87px]">
-                <h3 className="text-[29.36px] font-semibold">Help Line</h3>
+              <div className="space-y-[26.21px] xl:text-[18.87px]">
+                <h3 className="xl:text-[29.36px] lg:text-[24px] font-semibold">Help Line</h3>
                 <p>0901 234 5678, 0704 321 6789</p>
               </div>
-              <div className="space-y-[26.21px] text-[18.87px]">
-                <h3 className="text-[29.36px] font-semibold">Branches</h3>
+              <div className="space-y-[26.21px] xl:text-[18.87px]">
+                <h3 className="xl:text-[29.36px] lg:text-[24px] font-semibold">Branches</h3>
                 <p>
                   <span className="font-bold">Lagos:</span> 21, OjoIgbede Road,
                   Ojo, Alaba, Lagos.
@@ -57,7 +57,7 @@ const Body = () => {
 
         {/* SECOND GRID */}
 
-        <div className="w-full py-16 contact h-[1125px] bg-white">
+        <div className="w-full py-16 px-10 contact h-[1125px] bg-white">
           <div className="max-w-[668.17px] space-y-[39.85px] mx-auto">
             {/* FULL NAME */}
             <label
