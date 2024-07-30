@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <TopBar />
-      <div className="mt-[90px]">
+      <div className="mt-[87px]">
         <Navbar />
         <Outlet />
         <Footer />

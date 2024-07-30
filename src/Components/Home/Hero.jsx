@@ -16,15 +16,15 @@ const Hero = () => {
       <div className="max-w-[1600px] pt-[5vh] 2xl:pt-10 mx-auto">
         <div className="2xl:max-w-[741px] max-w-[50vw] space-y-[50px]">
           <div className="space-y-[16px]">
-            <h2 className="text-[#E78707] text-[4.3vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[90px]">
+            <h2 className="text-[#E78707] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
               Premium Kitchenwares
             </h2>
-            <p className="text-[#0D0D0D] leading-[45px] text-[1.5vw] 2xl:text-[22px]">
+            <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
               Top-quality kitchenware for every culinary need. Elevate your
               cooking experience with our premium products.
             </p>
           </div>
-          <button className="bg-[#E78707] hover:scale-[1.1] duration-500 text-white uppercase 2xl:w-[271px] h-[4.5vw] w-[13vw] 2xl:h-[74px] rounded-[20px] text-[1.3vw] 2xl:text-[22px] font-medium">
+          <button className="bg-[#E78707] hover:scale-[1.1] duration-500 text-white uppercase 2xl:w-[271px] h-[4.5vw] w-[13vw] 2xl:h-[74px] rounded-[1vw] text-[1.3vw] 2xl:text-[22px] font-medium">
             order now!
           </button>
         </div>
@@ -34,7 +34,7 @@ const Hero = () => {
               <div
                 key={index}
                 onClick={() => setImage(index)}
-                className={`2xl:size-[105px] size-[6vw] rounded-[24px] cursor-pointer ${
+                className={`2xl:size-[105px] size-[6vw] rounded-[1.2vw] cursor-pointer ${
                   Image == index && "hero border-[2px] border-[#E78707]"
                 } bg-white hover:scale-[1.1] duration-500 flex justify-center items-center`}
               >

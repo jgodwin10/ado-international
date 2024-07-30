@@ -14,14 +14,14 @@ const Product = () => {
     <div className="py-20 md:px-[50px] px-6">
       <div className="max-w-[1600px] mx-auto">
         <div className="flex justify-between items-center">
-          <div className="max-w-[428px]">
-            <h2 className="text-[45px] font-medium text-black leading-[60px]">
+          <div className="2xl:max-w-[428px] max-w-[26vw]">
+            <h2 className="2xl:text-[43px] text-[2.9vw] font-medium text-black leading-[60px]">
               Browse our Popular{" "}
               <span className="text-[#E78707]">Products</span>
             </h2>
           </div>
           <div className="flex justify-center gap-3 items-center">
-            <p className="underline text-[22px] cursor-pointer text-[#F90F08] font-medium">
+            <p className="underline 2xl:text-[20px] text-[1.3vw] cursor-pointer text-[#F90F08] font-medium">
               View all popular goods
             </p>
             <img className="size-[66px] cursor-pointer" src={Img} alt="" />
@@ -30,12 +30,14 @@ const Product = () => {
 
         {/* ITEMS */}
 
-        <div className="grid grid-cols-5 relative gap-6 pt-16">
+        <div className="grid grid-cols-4 2xl:grid-cols-5 relative gap-6 pt-16">
           <div className="bg-[#FAEAEA] px-6 py-8 hover:scale-[1.1] cursor-pointer duration-500 w-full rounded-[15px]">
             <img className="w-[260px] h-[210px] mx-auto" src={Img1} alt="" />
             <div className="pt-6 gap-y-[8px]">
-              <p className="text-[20px]  font-medium">Everplus Continental</p>
-              <p>
+              <p className="2xl:text-[20px] text-[1vw] font-medium">
+                Everplus Continental
+              </p>
+              <p className="2xl:text-base text-[14px]">
                 <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
                   ₦120
                 </span>
@@ -50,8 +52,10 @@ const Product = () => {
           <div className="bg-[#EEEEF8] px-6 py-8 hover:scale-[1.1] cursor-pointer duration-500 w-full rounded-[15px]">
             <img className="w-[212px] mx-auto" src={Img3} alt="" />
             <div className="pt-6 gap-y-[8px]">
-              <p className="text-[20px]  font-medium">Everplus Continental</p>
-              <p>
+              <p className="2xl:text-[20px] text-[1vw] font-medium">
+                Everplus Continental
+              </p>
+              <p className="2xl:text-base text-[14px]">
                 <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
                   ₦120
                 </span>
@@ -66,8 +70,10 @@ const Product = () => {
           <div className="bg-[#F7F6D7] px-6 py-8 hover:scale-[1.1] cursor-pointer duration-500 w-full rounded-[15px]">
             <img className="w-[212px] mx-auto" src={Img4} alt="" />
             <div className="pt-6 gap-y-[8px]">
-              <p className="text-[20px]  font-medium">Everplus Continental</p>
-              <p>
+              <p className="2xl:text-[20px] text-[1vw] font-medium">
+                Everplus Continental
+              </p>
+              <p className="2xl:text-base text-[14px]">
                 <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
                   ₦120
                 </span>
@@ -82,8 +88,10 @@ const Product = () => {
           <div className="bg-[#E6F2E0] px-6 py-8 hover:scale-[1.1] cursor-pointer duration-500 w-full rounded-[15px]">
             <img className="w-[212px] mx-auto" src={Img5} alt="" />
             <div className="pt-6 gap-y-[8px]">
-              <p className="text-[20px]  font-medium">Everplus Continental</p>
-              <p>
+              <p className="2xl:text-[20px] text-[1vw] font-medium">
+                Everplus Continental
+              </p>
+              <p className="2xl:text-base text-[14px]">
                 <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
                   ₦120
                 </span>
@@ -95,11 +103,13 @@ const Product = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#FFE3E3] px-6 py-8 hover:scale-[1.1] cursor-pointer duration-500 w-full rounded-[15px]">
+          <div className="bg-[#FFE3E3] hidden 2xl:block px-6 py-8 hover:scale-[1.1] cursor-pointer duration-500 w-full rounded-[15px]">
             <img className="w-[212px] mx-auto" src={Img6} alt="" />
             <div className="pt-6 gap-y-[8px]">
-              <p className="text-[20px]  font-medium">Everplus Continental</p>
-              <p>
+              <p className="2xl:text-[20px] text-[1vw] font-medium">
+                Everplus Continental
+              </p>
+              <p className="2xl:text-base text-[14px]">
                 <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
                   ₦120
                 </span>
@@ -123,11 +133,11 @@ const Product = () => {
           />
         </div>
         <div className="w-full flex justify-center items-center flex-col pt-20">
-          <p className="text-[#0D0D0D] pb-10 max-w-[899px] text-center text-[22px] ">
+          <p className="text-[#0D0D0D] pb-10 2xl:max-w-[899px] max-w-[40vw] text-center text-[1.4vw] 2xl:text-[21px] ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquet urna sed imperdiet.
           </p>
-          <button className="w-[265px] text-white text-[22px] hover:scale-[1.1] duration-500 font-medium h-[81px] bg-[#E78707] rounded-[100px]">
+          <button className="2xl:w-[255px] w-[15vw] text-white 2xl:text-[20px] text-[1.3vw] hover:scale-[1.1] h-[6vh] duration-500 font-medium 2xl:h-[78px] bg-[#E78707] rounded-[100px]">
             Place an Order
           </button>
         </div>
