@@ -1,10 +1,15 @@
 import React from "react";
 import Logo from "../Images/Logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const pathname = useLocation().pathname;
   return (
-    <div className={`md:px-[50px] py-6 px-6`}>
+    <div
+      className={`md:px-[50px] ${
+        pathname == "/" ? "home" : "bg-white"
+      } py-6 px-6`}
+    >
       <div
         className={`max-w-[1600px] flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
       >
@@ -16,7 +21,9 @@ const Navbar = () => {
           <NavLink>F&B</NavLink>
           <NavLink>Furniture</NavLink>
           <NavLink>Hotel</NavLink>
-          <NavLink>House Keeping</NavLink>
+          <NavLink className={`${pathname == "/" && "text-white"}`}>
+            House Keeping
+          </NavLink>
         </div>
         <button className="border-[2px] text-[1vw] 2xl:text-[20px] font-bold hover:scale-[1.1] duration-500 border-[#E78707] text-[#E78707] 2xl:w-[190px] w-[10vw] h-[45px] 2xl:h-[60px] rounded-full">
           Flea Market

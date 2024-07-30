@@ -1,10 +1,16 @@
 import React from "react";
+import Hero from "../Components/Home/Hero";
+import Product from "../Components/Home/Product";
+import Taste from "../Components/Home/Taste";
+import Category from "../Components/Home/Category";
 
 const Home = () => {
   return (
-    <div className="flex items-center ">
-      <div className="bg-[#FEF9F3] h-[998px] max-w-[1292px]"></div>
-      <div className="h-[999px] max-w-[661px] bg-[#E78707]"></div>
+    <div className=" ">
+      <Hero />
+      <Product />
+      <Taste />
+      <Category />
     </div>
   );
 };
