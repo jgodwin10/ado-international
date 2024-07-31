@@ -5,6 +5,7 @@ import Taste from "../Components/Home/Taste";
 import Category from "../Components/Home/Category";
 import More from "../Components/Home/More";
 import Customers from "../Components/Home/Customers";
+import Events from "../Components/Home/Events";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Category />
       <More />
       <Customers />
+      <Events />
     </div>
   );
 };

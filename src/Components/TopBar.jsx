@@ -6,7 +6,7 @@ import Heart from "../Images/heart.png";
 
 const TopBar = () => {
   return (
-    <div className=" shadow fixed md:px-[50px] px-6 -top-1 bg-white left-0 w-full z-[99999] flex justify-between items-center ">
+    <div className=" shadow fixed md:px-[50px] px-6 -top-1 bg-white left-0 w-full z-[99999999] flex justify-between items-center ">
       <div className=" max-w-[1600px] py-5 mx-auto w-full flex justify-between items-center">
         <div className="bg-[#F3F3F3] border-[1px] border-[#D3D3D3] flex items-center justify-between px-5  w-[50vw] 2xl:w-[793px] h-[51px]  rounded-[8px]">
           <input

@@ -7,7 +7,7 @@ const Customers = () => {
   return (
     <div className="bg-[url('/src/Images/customer.png')] bg-cover bg-center before:contents-[''] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#000000B2] relative h-[30vh 2xl:h-[795px] w-full">
       <div className="w-full flex items-center gap-y-6 text-white absolute top-16  flex-col ">
-        <h2 className="text-[45px] font-semibold">Why Customers Love Us?</h2>
+        <h2 className="text-[45px] font-medium">Why Customers Love Us?</h2>
         <p className="max-w-[626px] text-center font-medium text-[22px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           aliquet urna sed imperdiet.

@@ -84,7 +84,7 @@ const More = () => {
                       ₦3,000
                     </p>
                   </div>
-                  <div className="border-[1px] grid grid-cols-3 h-[49px] border-[#AEAEAE] w-[141px]">
+                  <div className="border-[1px] grid grid-cols-3 rounded-md h-[49px] border-[#AEAEAE] w-[141px]">
                     <p className="flex justify-center items-center text-[22px]">
                       -
                     </p>

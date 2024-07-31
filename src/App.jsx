@@ -18,7 +18,7 @@ const App = () => {
     <>
       <TopBar />
       <div className="mt-[87px]">
-        <Navbar />
+        {pathname.pathname == "/" ? "" : <Navbar />}
         <Outlet />
         <Footer />
       </div>

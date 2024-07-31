@@ -7,11 +7,11 @@ const Navbar = () => {
   return (
     <div
       className={`md:px-[50px] ${
-        pathname == "/" ? "home" : "bg-white"
-      } py-6 px-6`}
+        pathname == "/" ? "z-[99999999999] bg-white" : "bg-white"
+      } py-6 px-6 z-[9999999999999]`}
     >
       <div
-        className={`max-w-[1600px] flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
+        className={`max-w-[1600px] z-[999999999] flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
       >
         <img className="h-[50px] 2xl:w-[223px]" src={Logo} alt="" />
         <div className="flex justify-evenly 2xl:text-[16px] text-[1vw] gap-2 items-center flex-1 ">
