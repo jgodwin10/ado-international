@@ -3,6 +3,8 @@ import Hero from "../Components/Home/Hero";
 import Product from "../Components/Home/Product";
 import Taste from "../Components/Home/Taste";
 import Category from "../Components/Home/Category";
+import More from "../Components/Home/More";
+import Customers from "../Components/Home/Customers";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Product />
       <Taste />
       <Category />
+      <More />
+      <Customers />
     </div>
   );
 };

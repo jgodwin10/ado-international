@@ -5,8 +5,6 @@ import Img4 from "../../Images/hero4.png";
 import Cart from "../../Images/Cart1.png";
 import Img2 from "../../Images/prod4.png";
 import Img3 from "../../Images/prod3.png";
-import Right from "../../Images/right.png";
-import Left from "../../Images/left.png";
 
 const Category = () => {
   const Items = [
