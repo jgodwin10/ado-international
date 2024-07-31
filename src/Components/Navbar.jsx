@@ -14,7 +14,7 @@ const Navbar = () => {
         className={`max-w-[1600px] z-[999999999] flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
       >
         <img className="h-[50px] 2xl:w-[223px]" src={Logo} alt="" />
-        <div className="flex justify-evenly 2xl:text-[16px] text-[1vw] gap-2 items-center flex-1 ">
+        <div className="flex justify-evenly 2xl:text-[22px] duration-500 font-medium text-[1.2vw] 2xl:gap-1 gap-2 items-center flex-1 ">
           <NavLink>Kitchen</NavLink>
           <NavLink>Refrigeration</NavLink>
           <NavLink>Table Ware</NavLink>
