@@ -181,7 +181,7 @@ const Hero = () => {
               <div className="space-y-[7px]">
                 {Image == 0 && (
                   <>
-                    <h2 className="text-[#E78707] text-[12vw] leading-[56px] font-bold">
+                    <h2 className="text-[#E78707] text-[11vw] leading-[56px] font-bold">
                       Premium Kitchenwares
                     </h2>
                     <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
@@ -192,7 +192,7 @@ const Hero = () => {
                 )}
                 {Image == 1 && (
                   <>
-                    <h2 className="text-[#BA0000] text-[12vw] leading-[56px] font-bold">
+                    <h2 className="text-[#BA0000] text-[11vw] leading-[56px] font-bold">
                       Reliable Refridgerators
                     </h2>
                     <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
@@ -204,7 +204,7 @@ const Hero = () => {
                 )}
                 {Image == 2 && (
                   <>
-                    <h2 className="text-[#03A84E] text-[12vw] leading-[56px] font-bold">
+                    <h2 className="text-[#03A84E] text-[11vw] leading-[56px] font-bold">
                       Elegant Tableware
                     </h2>
                     <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
@@ -216,7 +216,7 @@ const Hero = () => {
                 )}
                 {Image == 3 && (
                   <>
-                    <h2 className="text-[#0D0D0D] text-[12vw] leading-[56px] font-bold">
+                    <h2 className="text-[#0D0D0D] text-[11vw] leading-[56px] font-bold">
                       Standard F&B Supplies
                     </h2>
                     <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
@@ -228,7 +228,7 @@ const Hero = () => {
                 )}
                 {Image == 4 && (
                   <>
-                    <h2 className="text-[#E78707] text-[12vw] leading-[56px] font-bold">
+                    <h2 className="text-[#E78707] text-[11vw] leading-[56px] font-bold">
                       Durable Furnitures
                     </h2>
                     <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
@@ -240,7 +240,7 @@ const Hero = () => {
                 )}
                 {Image == 5 && (
                   <>
-                    <h2 className="text-[#BA0000] text-[12vw] leading-[56px] font-bold">
+                    <h2 className="text-[#BA0000] text-[11vw] leading-[56px] font-bold">
                       Hotel Comfort Supplies
                     </h2>
                     <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
@@ -251,7 +251,7 @@ const Hero = () => {
                 )}
                 {Image == 6 && (
                   <>
-                    <h2 className="text-[#03A84E] text-[12vw] leading-[56px] font-bold">
+                    <h2 className="text-[#03A84E] text-[11vw] leading-[56px] font-bold">
                       Housekeeping Essentials
                     </h2>
                     <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
@@ -317,7 +317,7 @@ const Hero = () => {
                     : ""
                 } bg-white hover:scale-[1.1] duration-500 flex justify-center items-center`}
                   >
-                    <img className=" size-[38px]" src={item} alt="" />
+                    <img className=" size-[35px]" src={item} alt="" />
                   </div>
                 );
               })}
