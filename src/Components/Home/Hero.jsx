@@ -7,6 +7,10 @@ import Img4 from "../../Images/hero4.png";
 import Img5 from "../../Images/hero5.png";
 import Logo from "../../Images/Logo.png";
 import Img6 from "../../Images/hero6.png";
+import Nav from "../../Images/align-center.png";
+import Cart from "../../Images/shopping-cart.png";
+import User from "../../Images/user.png";
+import Heart from "../../Images/heart.png";
 import Navbar from "../Navbar";
 import { NavLink } from "react-router-dom";
 
@@ -26,12 +30,12 @@ const Hero = () => {
   }, [image]);
 
   return (
-    <div className="md:px-[50px] overflow-hidden home h-[90vh]  2xl:h-[90vh] w-full relative px-6">
+    <div className="md:px-[50px] overflow-hidden bg-[#fef9f3] h-[750px] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
       <div
-        className={`md:px-[50px] py-6 absolute top-0 left-0 w-full px-6 z-[999]`}
+        className={`md:px-[50px] absolute top-0 lg:px-6 lg:py-6 left-0 w-full z-[999]`}
       >
         <div
-          className={`max-w-[1600px] z-[9999] flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
+          className={`max-w-[1600px] hidden  z-[9999] lg:flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
         >
           <img className="h-[50px] 2xl:w-[223px]" src={Logo} alt="" />
           <div className="flex justify-evenly 2xl:text-[22px] duration-500 font-medium text-[1.2vw] 2xl:gap-1 gap-2 items-center flex-1 ">
@@ -62,8 +66,20 @@ const Hero = () => {
           </button>
         </div>
       </div>
+      <div className="bg-white flex items-center fixed z-[999999] left-0 w-full -top-1 justify-between py-6 px-6">
+        <div className="flex items-center gap-x-4">
+          <img src={Nav} alt="" />
+          <img className="w-[110px]" src={Logo} alt="" />
+        </div>
+        <div className="flex gap-x-[15px] items-center">
+          <img src={Heart} alt="" />
+          <img src={Cart} alt="" />
+          <img src={User} alt="" />
+        </div>
+      </div>
+
       <div className="max-w-[1600px] pt-[16vh] 2xl:pt-36 mx-auto">
-        <div className="2xl:max-w-[741px] max-w-[50vw] space-y-[50px]">
+        <div className="2xl:max-w-[741px] hidden lg:block lg:max-w-[50vw] space-y-[50px]">
           <div className="space-y-[16px]">
             {Image == 0 && (
               <>
@@ -158,13 +174,164 @@ const Hero = () => {
             order now!
           </button>
         </div>
-        <div className="grid grid-cols-7 w-[50vw] 2xl:w-[825px] 2xl:gap-6 gap-[1vw] pt-20">
+
+        <div className="absolute bottom-0 lg:hidden left-0 w-full h-[50%]">
+          <div className="px-6 py-10">
+            <div className="2xl:max-w-[741px] lg:hidden lg:max-w-[50vw] space-y-[30px]">
+              <div className="space-y-[7px]">
+                {Image == 0 && (
+                  <>
+                    <h2 className="text-[#E78707] text-[42px] leading-[56px] font-bold">
+                      Premium Kitchenwares
+                    </h2>
+                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                      Top-quality kitchenware for every culinary need. Elevate
+                      your cooking experience with our premium products.
+                    </p>
+                  </>
+                )}
+                {Image == 1 && (
+                  <>
+                    <h2 className="text-[#BA0000] text-[42px] leading-[56px] font-bold">
+                      Reliable Refridgerators
+                    </h2>
+                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                      Keep your food fresh with our reliable refrigeration
+                      solutions. Energy-efficient, durable, and designed for
+                      convenience.
+                    </p>
+                  </>
+                )}
+                {Image == 2 && (
+                  <>
+                    <h2 className="text-[#03A84E] text-[42px] leading-[56px] font-bold">
+                      Elegant Tableware
+                    </h2>
+                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                      Stylish tableware for any dining occasion. Impress your
+                      guests and enhance every meal with our elegant
+                      collections.
+                    </p>
+                  </>
+                )}
+                {Image == 3 && (
+                  <>
+                    <h2 className="text-[#0D0D0D] text-[42px] leading-[56px] font-bold">
+                      Standard F&B Supplies
+                    </h2>
+                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                      Comprehensive F&B products for all your needs.
+                      High-quality solutions designed for every event and
+                      occasion.
+                    </p>
+                  </>
+                )}
+                {Image == 4 && (
+                  <>
+                    <h2 className="text-[#E78707] text-[42px] leading-[56px] font-bold">
+                      Durable Furnitures
+                    </h2>
+                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                      Durable and stylish furniture for any space. Comfort,
+                      elegance, and functionality combined for your
+                      satisfaction.
+                    </p>
+                  </>
+                )}
+                {Image == 5 && (
+                  <>
+                    <h2 className="text-[#BA0000] text-[42px] leading-[56px] font-bold">
+                      Hotel Comfort Supplies
+                    </h2>
+                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                      Premium supplies for unmatched hotel comfort. Enhance your
+                      guests' stay with our top-quality products.
+                    </p>
+                  </>
+                )}
+                {Image == 6 && (
+                  <>
+                    <h2 className="text-[#03A84E] text-[42px] leading-[56px] font-bold">
+                      Housekeeping Essentials
+                    </h2>
+                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                      Keep your space spotless and organized. Reliable tools
+                      designed for every cleaning task, ensuring pristine
+                      results.
+                    </p>
+                  </>
+                )}
+              </div>
+              <button
+                className={` ${Image == 0 && "bg-[#E78707]"}  ${
+                  Image == 1 && "bg-[#BA0000]"
+                }  ${Image == 2 && "bg-[#03A84E]"}  ${
+                  Image == 3 && "bg-[#161616]"
+                }  ${Image == 4 && "bg-[#E78707]"}  ${
+                  Image == 5 && "bg-[#BA0000]"
+                }  ${
+                  Image == 6 && "bg-[#03A84E]"
+                } hover:scale-[1.1] duration-500 text-white uppercase w-[126px] h-[34px] rounded-[10px] text-[10px] font-medium`}
+              >
+                order now!
+              </button>
+            </div>
+
+            <div className="grid grid-cols-7 w-full 2xl:gap-6 gap-[1vw] pt-10">
+              {image.map((item, index) => {
+                return (
+                  <div
+                    key={index}
+                    onClick={() => setImage(index)}
+                    className={`size-[48px] rounded-[11px] cursor-pointer ${
+                      Image == index && index == 0
+                        ? "hero border-[2px] border-[#E78707]"
+                        : ""
+                    } ${
+                      Image == index && index == 1
+                        ? "hero border-[2px] border-[#BA0000]"
+                        : ""
+                    } ${
+                      Image == index && index == 2
+                        ? "hero border-[2px] border-[#03A84E]"
+                        : ""
+                    }
+                ${
+                  Image == index && index == 3
+                    ? "hero border-[2px] border-[#161616]"
+                    : ""
+                }
+                ${
+                  Image == index && index == 4
+                    ? "hero border-[2px] border-[#E78707]"
+                    : ""
+                } 
+                ${
+                  Image == index && index == 5
+                    ? "hero border-[2px] border-[#BA0000]"
+                    : ""
+                }
+                ${
+                  Image == index && index == 6
+                    ? "hero border-[2px] border-[#03A84E]"
+                    : ""
+                } bg-white hover:scale-[1.1] duration-500 flex justify-center items-center`}
+                  >
+                    <img className=" size-[38px]" src={item} alt="" />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:grid grid-cols-7 w-[50vw] hidden 2xl:w-[825px] 2xl:gap-6 gap-[1vw] pt-20">
           {image.map((item, index) => {
             return (
               <div
                 key={index}
                 onClick={() => setImage(index)}
-                className={`2xl:size-[105px] size-[6vw] rounded-[1.2vw] cursor-pointer ${
+                className={`2xl:size-[105px] lg:size-[6vw] size-[48px] rounded-[1.2vw] cursor-pointer ${
                   Image == index && index == 0
                     ? "hero border-[2px] border-[#E78707]"
                     : ""
@@ -198,48 +365,70 @@ const Hero = () => {
                     : ""
                 } bg-white hover:scale-[1.1] duration-500 flex justify-center items-center`}
               >
-                <img className="2xl:size-[80px] size-[4vw]" src={item} alt="" />
+                <img
+                  className="2xl:size-[80px] size-[38px] lg:size-[4vw]"
+                  src={item}
+                  alt=""
+                />
               </div>
             );
           })}
         </div>
-        <div className="absolute z-[999] top-32 right-[11vw]">
-          <img className="2xl:w-[715px] w-[35vw]" src={image[Image]} alt="" />
+        <div className="absolute z-[999] top-10 lg:top-32 right-8 lg:right-[11vw]">
+          <img
+            className="2xl:w-[715px] w-[80vw] lg:w-[35vw]"
+            src={image[Image]}
+            alt=""
+          />
         </div>
         <div
           className={`absolute ${
-            Image == 0 ? "translate-x-0" : "translate-x-[120vw]"
-          } duration-500 top-0 z-[99] right-0 w-[32%] bg-[#E78707] h-full`}
+            Image == 0
+              ? "lg:translate-x-0 translate-y-0"
+              : "lg:translate-x-[120vw] -translate-y-[120vh]"
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[396px] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
-            Image == 1 ? "translate-x-0" : "translate-x-[120vw]"
-          } duration-500 top-0 z-[99] right-0 w-[32%] bg-[#BA0000] h-full`}
+            Image == 1
+              ? "lg:translate-x-0 translate-y-0"
+              : "lg:translate-x-[120vw] -translate-y-[120vh]"
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[396px] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
-            Image == 2 ? "translate-x-0" : "translate-x-[120vw]"
-          } duration-500 top-0 z-[99] right-0 w-[32%] bg-[#03A84E] h-full`}
+            Image == 2
+              ? "lg:translate-x-0 translate-y-0"
+              : "lg:translate-x-[120vw] -translate-y-[120vh]"
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[396px] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
-            Image == 3 ? "translate-x-0" : "translate-x-[120vw]"
-          } duration-500 top-0 z-[99] right-0 w-[32%] bg-[#161616] h-full`}
+            Image == 3
+              ? "lg:translate-x-0 translate-y-0"
+              : "lg:translate-x-[120vw] -translate-y-[120vh]"
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#161616] h-[396px] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
-            Image == 4 ? "translate-x-0" : "translate-x-[120vw]"
-          } duration-500 top-0 z-[99] right-0 w-[32%] bg-[#E78707] h-full`}
+            Image == 4
+              ? "lg:translate-x-0 translate-y-0"
+              : "lg:translate-x-[120vw] -translate-y-[120vh]"
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[396px] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
-            Image == 5 ? "translate-x-0" : "translate-x-[120vw]"
-          } duration-500 top-0 z-[99] right-0 w-[32%] bg-[#BA0000] h-full`}
+            Image == 5
+              ? "lg:translate-x-0 translate-y-0"
+              : "lg:translate-x-[120vw] -translate-y-[120vh]"
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[396px] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
-            Image == 6 ? "translate-x-0" : "translate-x-[120vw]"
-          } duration-500 top-0 z-[99] right-0 w-[32%] bg-[#03A84E] h-full`}
+            Image == 6
+              ? "lg:translate-x-0 translate-y-0"
+              : "lg:translate-x-[120vw] -translate-y-[120vh]"
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[396px] lg:h-full`}
         ></div>
       </div>
     </div>
