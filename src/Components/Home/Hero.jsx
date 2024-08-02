@@ -30,7 +30,7 @@ const Hero = () => {
   }, [image]);
 
   return (
-    <div className="md:px-[50px] overflow-hidden bg-[#fef9f3] h-[750px] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
+    <div className="md:px-[50px] overflow-hidden bg-[#fef9f3] md:h-[175vw] h-[185vw] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
       <div
         className={`md:px-[50px] absolute top-0 lg:px-6 lg:py-6 left-0 w-full z-[999]`}
       >
@@ -175,16 +175,18 @@ const Hero = () => {
           </button>
         </div>
 
+        {/* MOBILE */}
+
         <div className="absolute bottom-0 lg:hidden left-0 w-full h-[50%]">
-          <div className="px-6 py-10">
-            <div className="2xl:max-w-[741px] lg:hidden lg:max-w-[50vw] space-y-[30px]">
-              <div className="space-y-[7px]">
+          <div className="px-6 py-[7vw]">
+            <div className="2xl:max-w-[741px] lg:hidden lg:max-w-[50vw] space-y-[6vw]">
+              <div className="space-y-[3.5vw]">
                 {Image == 0 && (
                   <>
-                    <h2 className="text-[#E78707] text-[11vw] leading-[56px] font-bold">
+                    <h2 className="text-[#E78707] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
                       Premium Kitchenwares
                     </h2>
-                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
                       Top-quality kitchenware for every culinary need. Elevate
                       your cooking experience with our premium products.
                     </p>
@@ -192,10 +194,10 @@ const Hero = () => {
                 )}
                 {Image == 1 && (
                   <>
-                    <h2 className="text-[#BA0000] text-[11vw] leading-[56px] font-bold">
+                    <h2 className="text-[#BA0000] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
                       Reliable Refridgerators
                     </h2>
-                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
                       Keep your food fresh with our reliable refrigeration
                       solutions. Energy-efficient, durable, and designed for
                       convenience.
@@ -204,10 +206,10 @@ const Hero = () => {
                 )}
                 {Image == 2 && (
                   <>
-                    <h2 className="text-[#03A84E] text-[11vw] leading-[56px] font-bold">
+                    <h2 className="text-[#03A84E] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
                       Elegant Tableware
                     </h2>
-                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
                       Stylish tableware for any dining occasion. Impress your
                       guests and enhance every meal with our elegant
                       collections.
@@ -216,10 +218,10 @@ const Hero = () => {
                 )}
                 {Image == 3 && (
                   <>
-                    <h2 className="text-[#0D0D0D] text-[11vw] leading-[56px] font-bold">
+                    <h2 className="text-[#0D0D0D] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
                       Standard F&B Supplies
                     </h2>
-                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
                       Comprehensive F&B products for all your needs.
                       High-quality solutions designed for every event and
                       occasion.
@@ -228,10 +230,10 @@ const Hero = () => {
                 )}
                 {Image == 4 && (
                   <>
-                    <h2 className="text-[#E78707] text-[11vw] leading-[56px] font-bold">
+                    <h2 className="text-[#E78707] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
                       Durable Furnitures
                     </h2>
-                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
                       Durable and stylish furniture for any space. Comfort,
                       elegance, and functionality combined for your
                       satisfaction.
@@ -240,10 +242,10 @@ const Hero = () => {
                 )}
                 {Image == 5 && (
                   <>
-                    <h2 className="text-[#BA0000] text-[11vw] leading-[56px] font-bold">
+                    <h2 className="text-[#BA0000] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
                       Hotel Comfort Supplies
                     </h2>
-                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
                       Premium supplies for unmatched hotel comfort. Enhance your
                       guests' stay with our top-quality products.
                     </p>
@@ -251,10 +253,10 @@ const Hero = () => {
                 )}
                 {Image == 6 && (
                   <>
-                    <h2 className="text-[#03A84E] text-[11vw] leading-[56px] font-bold">
+                    <h2 className="text-[#03A84E] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
                       Housekeeping Essentials
                     </h2>
-                    <p className="text-[#0D0D0D] text-[10px] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
                       Keep your space spotless and organized. Reliable tools
                       designed for every cleaning task, ensuring pristine
                       results.
@@ -271,7 +273,7 @@ const Hero = () => {
                   Image == 5 && "bg-[#BA0000]"
                 }  ${
                   Image == 6 && "bg-[#03A84E]"
-                } hover:scale-[1.1] duration-500 text-white uppercase w-[126px] h-[34px] rounded-[10px] text-[10px] font-medium`}
+                } hover:scale-[1.1] duration-500 text-white uppercase w-[26vw] h-[8vw] rounded-[2vw] text-[2.5vw] font-medium`}
               >
                 order now!
               </button>
@@ -283,7 +285,7 @@ const Hero = () => {
                   <div
                     key={index}
                     onClick={() => setImage(index)}
-                    className={`size-[12vw] rounded-[11px] cursor-pointer ${
+                    className={`size-[12vw] rounded-[2.5vw] cursor-pointer ${
                       Image == index && index == 0
                         ? "hero border-[2px] border-[#E78707]"
                         : ""
@@ -317,7 +319,7 @@ const Hero = () => {
                     : ""
                 } bg-white hover:scale-[1.1] duration-500 flex justify-center items-center`}
                   >
-                    <img className=" size-[35px]" src={item} alt="" />
+                    <img className=" size-[7vw]" src={item} alt="" />
                   </div>
                 );
               })}
@@ -374,9 +376,9 @@ const Hero = () => {
             );
           })}
         </div>
-        <div className="absolute z-[999] top-10 lg:top-32 right-8 lg:right-[11vw]">
+        <div className="absolute z-[999] top-10 lg:top-33 right-[10vw] md:right-[15vw] lg:right-[11vw]">
           <img
-            className="2xl:w-[715px] w-[80vw] lg:w-[35vw]"
+            className="2xl:w-[715px] w-[80vw] md:w-[70vw] lg:w-[35vw]"
             src={image[Image]}
             alt=""
           />
@@ -386,49 +388,49 @@ const Hero = () => {
             Image == 0
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[396px] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 1
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[396px] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 2
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[396px] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 3
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#161616] h-[396px] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#161616] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 4
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[396px] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 5
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[396px] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 6
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[396px] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[50%] lg:h-full`}
         ></div>
       </div>
     </div>
