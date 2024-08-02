@@ -50,12 +50,12 @@ const Category = () => {
         {/* ITEMS */}
 
         <div className="lg:overflow-visible channel overflow-x-scroll">
-          <div className="grid grid-cols-4 w-[700px] lg:w-full relative gap-4 2xl:gap-8 pt-8 pb-6 lg:pt-16">
+          <div className="grid grid-cols-4 min-w-[700px] lg:w-full relative gap-4 2xl:gap-8 pt-8 pb-6 lg:pt-16">
             {Items.map((item, index) => {
               return (
                 <div
                   key={index}
-                  className="bg-white category lg:hover:scale-[1.07] 2xl:hover:scale-[1.1] overflow-hidden cursor-pointer duration-500 w-[170px]  lg:h-full lg:w-full rounded-[15px]"
+                  className="bg-white category lg:hover:scale-[1.07] 2xl:hover:scale-[1.1] overflow-hidden cursor-pointer duration-500 w-[170px]  lg:h-full md:w-full rounded-[15px]"
                 >
                   <div className="lg:py-8 p-4 lg:px-6">
                     <img

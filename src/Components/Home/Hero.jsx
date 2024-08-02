@@ -30,7 +30,7 @@ const Hero = () => {
   }, [image]);
 
   return (
-    <div className="md:px-[50px] overflow-hidden bg-[#fef9f3] md:h-[175vw] h-[185vw] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
+    <div className="md:px-[50px] overflow-hidden bg-[#fef9f3] md:h-[175vw] h-[195vw] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
       <div
         className={`md:px-[50px] absolute top-0 lg:px-6 lg:py-6 left-0 w-full z-[999]`}
       >
