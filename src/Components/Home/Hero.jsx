@@ -376,7 +376,7 @@ const Hero = () => {
             );
           })}
         </div>
-        <div className="absolute z-[999] top-10 lg:top-33 right-[10vw] md:right-[15vw] lg:right-[11vw]">
+        <div className="absolute z-[999] top-10 lg:top-36 right-[10vw] md:right-[15vw] lg:right-[11vw]">
           <img
             className="2xl:w-[715px] w-[80vw] md:w-[70vw] lg:w-[35vw]"
             src={image[Image]}

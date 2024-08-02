@@ -31,7 +31,7 @@ const Product = () => {
         {/* ITEMS */}
 
         <div className="lg:overflow-visible channel overflow-x-scroll">
-          <div className="grid grid-cols-5 lg:grid-cols-4 min-w-[800px] lg:w-full 2xl:grid-cols-5 lg:relative gap-6 pt-6 lg:pt-16">
+          <div className="grid grid-cols-5 lg:grid-cols-4 min-w-[800px] lg:w-full 2xl:grid-cols-5 lg:relative gap-4 pt-6 lg:pt-16">
             <div className="bg-[#FAEAEA] p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
               <img
                 className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
@@ -128,7 +128,7 @@ const Product = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#FFE3E3] p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
+            <div className="bg-[#FFE3E3] lg:hidden xl:block p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
               <img
                 className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
                 src={Img6}

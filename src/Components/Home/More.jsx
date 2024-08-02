@@ -35,7 +35,7 @@ const More = () => {
             <h2 className="2xl:text-[45px] text-[5.5vw] lg:text-[1.9vw] font-medium leading-[50px] text-black md:leading-[60px]">
               See More Products
             </h2>
-            <p className="text-[#0D0D0D] text-[3.9vw] md:text-[3vw] md:pt-5 font-medium lg:text-[1.2vw] 2xl:text-[22px]">
+            <p className="text-[#0D0D0D] text-[3.9vw] md:text-[3vw] md:pt-5  lg:text-[1.2vw] 2xl:text-[22px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               aliquet urna sed imperdiet.
             </p>
@@ -50,7 +50,7 @@ const More = () => {
 
         {/* ITEMS */}
 
-        <div className="grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 relative gap-4 2xl:gap-8 pt-16">
+        <div className="grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 relative gap-[10px] lg:gap-8 2xl:gap-8 pt-8 pb-10 lg:pt-16">
           {Items.map((item, index) => {
             return (
               <div
