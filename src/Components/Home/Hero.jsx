@@ -11,7 +11,6 @@ import Nav from "../../Images/align-center.png";
 import Cart from "../../Images/shopping-cart.png";
 import User from "../../Images/user.png";
 import Heart from "../../Images/heart.png";
-import Navbar from "../Navbar";
 import { NavLink } from "react-router-dom";
 
 const Hero = () => {

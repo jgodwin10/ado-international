@@ -17,7 +17,11 @@ const App = () => {
   return (
     <>
       <TopBar />
-      <div className="lg:mt-[87px] mt-[75px] overflow-hidden">
+      <div
+        className={`lg:mt-[87px] ${
+          pathname.pathname == "/" ? "mt-[75px]" : "mt-[28px]"
+        } overflow-hidden`}
+      >
         {pathname.pathname == "/" ? "" : <Navbar />}
         <Outlet />
         <Footer />
