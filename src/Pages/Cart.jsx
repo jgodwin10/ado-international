@@ -36,7 +36,7 @@ const Cart = () => {
       <div className="bg-[#fef9f3] md:px-[50px] w-full ">
         <div className="max-w-[1600px] hidden  py-10 gap-8 md:flex md:flex-col lg:flex-row items-center justify-between mx-auto ">
           <div className="flex-1 h-[266px] py-5 pb-6 bg-white cart ">
-            <h2 className="text-[#787878] px-7 pb-3 text-[29px] font-semibold">
+            <h2 className="text-[#787878] px-7 pb-3 text-[1.5vw] font-semibold">
               Cart (1)
             </h2>
             <div className="border-[#E8E8E8] border-b"></div>
@@ -48,7 +48,7 @@ const Cart = () => {
                   alt=""
                 />
                 <div>
-                  <p className="lg:text-[22px] text-[18px] text-[#787878] pr-9 font-semibold">
+                  <p className="lg:text-[1.2vw] text-[#787878] pr-9 font-semibold">
                     Gold Glass Lid Chafing Dish 351 For Induction use
                   </p>
                   <p className="text-[#03A84E] relative before:contents-[''] before:w-[9px] before:h-[9px] before:bg-[#03A84E] before:rounded-full before:absolute before:left-0 before:top-[25%] pl-4 font-medium">
@@ -56,42 +56,44 @@ const Cart = () => {
                   </p>
                 </div>
               </div>
-              <p className="xl:text-[28px] lg:text-[22px] md:text-[18px] font-semibold">
+              <p className=" lg:text-[1.3vw] md:text-[1.5vw] font-semibold">
                 ₦18,000
               </p>
             </div>
             <div className="flex justify-between items-center px-6 ">
               <div className="flex items-center gap-3 text-[#E78707] font-semibold">
-                <img src={Img1} alt="" />
-                <p className="text-[22px] cursor-pointer uppercase">Remove</p>
+                <img className="size-[2vw] 2xl:size-auto" src={Img1} alt="" />
+                <p className="text-[1.2vw] 2xl:text-[20px] cursor-pointer uppercase">
+                  Remove
+                </p>
               </div>
               <div className="flex  items-center h-[53x] ">
                 <img
-                  className="h-[53px] mb-1 cursor-pointer hover:scale-[1.05] duration-500"
+                  className="h-[5vw] 2xl:size-[53px] mb-1 cursor-pointer hover:scale-[1.05] duration-500"
                   src={Img3}
                   alt=""
                 />
-                <p className="px-5 text-[28px]">6</p>
+                <p className="px-5 text-[1.5vw]">6</p>
                 <img
-                  className="h-[53px] cursor-pointer hover:scale-[1.05] duration-500"
+                  className="md:h-[5vw] 2xl:size-[53px] cursor-pointer hover:scale-[1.05] duration-500"
                   src={Img2}
                   alt=""
                 />
               </div>
             </div>
           </div>
-          <div className="h-[266px] w-[457px] py-5 cart bg-white">
-            <h2 className="text-[#787878] px-6 pb-3 text-[24px] font-semibold">
+          <div className="h-fit w-[457px] py-5 cart bg-white">
+            <h2 className="text-[#787878] px-6 pb-3 text-[1.2vw] font-semibold">
               CART SUMMARY
             </h2>
             <div className="border-[#E8E8E8] border-b"></div>
             <div className="flex items-center px-6 py-3 justify-between text-[#0D0D0D] font-semibold">
-              <p className="text-[22px]">Subtotal</p>
-              <p className="text-[28px]">₦18,000</p>
+              <p className="text-[1.2vw]">Subtotal</p>
+              <p className="text-[1.3vw]">₦18,000</p>
             </div>
             <div className="border-[#E8E8E8] border-b"></div>
             <div className="px-6 pt-8">
-              <button className="bg-[#E78707] uppercase hover:scale-[1.05] duration-500 h-[76px] w-full text-[22px] font-medium text-white rounded-[10px]">
+              <button className="bg-[#E78707] uppercase hover:scale-[1.05] duration-500 h-[5vw] w-full text-[1.3vw] font-medium text-white rounded-[10px]">
                 checkout (₦18,000)
               </button>
             </div>
@@ -167,26 +169,30 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <div className="py-20 md:px-[50px]  px-6">
+      <div className="py-[3vw] md:px-[50px] pb-16  px-6">
         <div className="max-w-[1600px] mx-auto">
           <div className="flex justify-between items-center">
             <div className="2xl:max-w-[700px] max-w-[40vw] 2xl:space-y-4">
-              <h2 className="2xl:text-[45px] text-[1.9vw] font-medium text-black leading-[60px]">
+              <h2 className="2xl:text-[42px] lg:text-[1.9vw] md:text-[3vw] font-medium text-black leading-[60px]">
                 More Like This
               </h2>
             </div>
             <div className="flex justify-center gap-3 items-center">
-              <p className="underline text-[1.3vw] 2xl:text-[22px] cursor-pointer text-[#F90F08] font-medium">
+              <p className="underline lg:text-[1.3vw] 2xl:text-[20px] text-[2vw] cursor-pointer text-[#F90F08] font-medium">
                 View all popular goods
               </p>
-              <img className="size-[66px] cursor-pointer" src={Img8} alt="" />
+              <img
+                className="md:size-[6vw] lg:size-[3.5vw] cursor-pointer"
+                src={Img8}
+                alt=""
+              />
             </div>
           </div>
 
           {/* ITEMS */}
 
-          <div className="lg:overflow-visible overflow-x-scroll chnanel">
-            <div className="grid grid-cols-4 min-w-[1200px]  relative gap-4 2xl:gap-8 pt-16">
+          <div className="lg:overflow-visible overflow-x-scroll channel">
+            <div className="grid grid-cols-4 min-w-[1200px] relative gap-4 2xl:gap-8 pt-[4vw]">
               {Items.map((item, index) => {
                 return (
                   <div

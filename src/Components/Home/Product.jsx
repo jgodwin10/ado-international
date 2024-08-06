@@ -30,147 +30,148 @@ const Product = () => {
 
         {/* ITEMS */}
 
-        <div className="lg:overflow-visible channel overflow-x-scroll">
-          <div className="grid grid-cols-5 lg:grid-cols-4 min-w-[800px] lg:w-full 2xl:grid-cols-5 lg:relative gap-4 pt-6 lg:pt-16">
-            <div className="bg-[#FAEAEA] p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
-              <img
-                className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
-                src={Img1}
-                alt=""
-              />
-              <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
-                <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
-                  Everplus Continental
-                </p>
-                <p className="2xl:text-base text-[8px] lg:text-[14px]">
-                  <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
-                    ₦120
-                  </span>
-                  <del className="font-[poppins] text-black">$160</del>
-                </p>
-                <div className="flex items-center gap-2">
-                  <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
-                  <p className="font-[poppins] lg:text-[16px] text-[9px]">
-                    (88)
+        <div className="relative">
+          <div className=" channel overflow-y-hidden  overflow-x-scroll">
+            <div className="flex w-[800px] lg:min-w-[1600px] scroll  gap-4 pt-6 lg:pt-16">
+              <div className="bg-[#FAEAEA] p-3 lg:px-6  lg:py-8 hove  h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
+                <img
+                  className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
+                  src={Img1}
+                  alt=""
+                />
+                <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
+                  <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
+                    Everplus Continental
                   </p>
+                  <p className="2xl:text-base text-[8px] lg:text-[14px]">
+                    <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
+                      ₦120
+                    </span>
+                    <del className="font-[poppins] text-black">$160</del>
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
+                    <p className="font-[poppins] lg:text-[16px] text-[9px]">
+                      (88)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#EEEEF8] p-3 lg:px-6  lg:py-8 hove  h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
+                <img
+                  className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
+                  src={Img3}
+                  alt=""
+                />
+                <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
+                  <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
+                    Everplus Continental
+                  </p>
+                  <p className="2xl:text-base text-[8px] lg:text-[14px]">
+                    <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
+                      ₦120
+                    </span>
+                    <del className="font-[poppins] text-black">$160</del>
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
+                    <p className="font-[poppins] lg:text-[16px] text-[9px]">
+                      (88)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#F7F6D7] p-3 lg:px-6  lg:py-8 hove  h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
+                <img
+                  className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
+                  src={Img4}
+                  alt=""
+                />
+                <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
+                  <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
+                    Everplus Continental
+                  </p>
+                  <p className="2xl:text-base text-[8px] lg:text-[14px]">
+                    <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
+                      ₦120
+                    </span>
+                    <del className="font-[poppins] text-black">$160</del>
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
+                    <p className="font-[poppins] lg:text-[16px] text-[9px]">
+                      (88)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#E6F2E0] p-3 lg:px-6  lg:py-8 hove  h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
+                <img
+                  className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
+                  src={Img5}
+                  alt=""
+                />
+                <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
+                  <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
+                    Everplus Continental
+                  </p>
+                  <p className="2xl:text-base text-[8px] lg:text-[14px]">
+                    <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
+                      ₦120
+                    </span>
+                    <del className="font-[poppins] text-black">$160</del>
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
+                    <p className="font-[poppins] lg:text-[16px] text-[9px]">
+                      (88)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#FFE3E3] lg:hidden xl:block p-3 lg:px-6  lg:py-8 hove  h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
+                <img
+                  className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
+                  src={Img6}
+                  alt=""
+                />
+                <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
+                  <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
+                    Everplus Continental
+                  </p>
+                  <p className="2xl:text-base text-[8px] lg:text-[14px]">
+                    <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
+                      ₦120
+                    </span>
+                    <del className="font-[poppins] text-black">$160</del>
+                  </p>
+                  <div className="flex items-center gap-2">
+                    <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
+                    <p className="font-[poppins] lg:text-[16px] text-[9px]">
+                      (88)
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="bg-[#EEEEF8] p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
-              <img
-                className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
-                src={Img3}
-                alt=""
-              />
-              <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
-                <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
-                  Everplus Continental
-                </p>
-                <p className="2xl:text-base text-[8px] lg:text-[14px]">
-                  <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
-                    ₦120
-                  </span>
-                  <del className="font-[poppins] text-black">$160</del>
-                </p>
-                <div className="flex items-center gap-2">
-                  <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
-                  <p className="font-[poppins] lg:text-[16px] text-[9px]">
-                    (88)
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-[#F7F6D7] p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
-              <img
-                className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
-                src={Img4}
-                alt=""
-              />
-              <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
-                <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
-                  Everplus Continental
-                </p>
-                <p className="2xl:text-base text-[8px] lg:text-[14px]">
-                  <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
-                    ₦120
-                  </span>
-                  <del className="font-[poppins] text-black">$160</del>
-                </p>
-                <div className="flex items-center gap-2">
-                  <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
-                  <p className="font-[poppins] lg:text-[16px] text-[9px]">
-                    (88)
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-[#E6F2E0] p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
-              <img
-                className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
-                src={Img5}
-                alt=""
-              />
-              <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
-                <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
-                  Everplus Continental
-                </p>
-                <p className="2xl:text-base text-[8px] lg:text-[14px]">
-                  <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
-                    ₦120
-                  </span>
-                  <del className="font-[poppins] text-black">$160</del>
-                </p>
-                <div className="flex items-center gap-2">
-                  <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
-                  <p className="font-[poppins] lg:text-[16px] text-[9px]">
-                    (88)
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-[#FFE3E3] lg:hidden xl:block p-3 lg:px-6  lg:py-8 hove lg:hover:scale-[1.1] h-[172px] lg:h-full cursor-pointer duration-500 w-[153px] lg:w-full rounded-[15px]">
-              <img
-                className="lg:w-[260px] w-[126px] h-[92px] lg:h-[210px] mx-auto"
-                src={Img6}
-                alt=""
-              />
-              <div className="lg:pt-6 pt-3 gap-y-[6px] lg:gap-y-[8px]">
-                <p className="2xl:text-[20px] text-[10px] lg:text-[1vw] font-medium">
-                  Everplus Continental
-                </p>
-                <p className="2xl:text-base text-[8px] lg:text-[14px]">
-                  <span className="font-medium pr-[8px] text-[#DB4444] font-[poppins]">
-                    ₦120
-                  </span>
-                  <del className="font-[poppins] text-black">$160</del>
-                </p>
-                <div className="flex items-center gap-2">
-                  <img className="lg:w-[100px] w-[48px]" src={Img2} alt="" />
-                  <p className="font-[poppins] lg:text-[16px] text-[9px]">
-                    (88)
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <img
-              className="absolute hidden lg:block cursor-pointer top-[50%] -left-9"
-              src={Left}
-              alt=""
-            />
-            <img
-              className="absolute hidden lg:block cursor-pointer top-[50%] -right-[34px]"
-              src={Right}
-              alt=""
-            />
           </div>
+          <img
+            className="absolute hidden lg:block cursor-pointer top-[50%] -left-9"
+            src={Left}
+            alt=""
+          />
+          <img
+            className="absolute hidden lg:block cursor-pointer top-[50%] -right-[34px]"
+            src={Right}
+            alt=""
+          />
         </div>
         <div className="w-full flex justify-center items-center flex-col pt-9 pb-4 lg:pt-20">
           <p className="text-[#0D0D0D] lg:block hidden pb-10 2xl:max-w-[899px] max-w-[40vw] text-center text-[1.4vw] 2xl:text-[21px] ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
             aliquet urna sed imperdiet.
           </p>
-          <button className="2xl:w-[255px] w-[127px] lg:w-[15vw] h-[38px] text-white 2xl:text-[20px] text-[10px] lg:text-[1.3vw] hover:scale-[1.05] lg:hover:scale-[1.1] lg:h-[6vh] duration-500 font-medium 2xl:h-[78px] bg-[#E78707] rounded-[100px]">
+          <button className="2xl:w-[255px] w-[127px] lg:w-[15vw] h-[38px] text-white 2xl:text-[20px] text-[10px] lg:text-[1.3vw] hover:scale-[1.05]  lg:h-[6vh] duration-500 font-medium 2xl:h-[78px] bg-[#E78707] rounded-[100px]">
             Place an Order
           </button>
         </div>

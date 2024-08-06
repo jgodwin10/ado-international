@@ -10,7 +10,7 @@ const Customers = () => {
         <h2 className="2xl:text-[45px] text-[21px] lg:text-[3vw] font-medium">
           Why Customers Love Us?
         </h2>
-        <p className="max-w-[626px] text-center font-medium text-[15px] lg:text-[1.2vw] 2xl:text-[22px]">
+        <p className="max-w-[626px] text-center font-medium text-[15px] lg:text-[1.2vw] 2xl:text-[20px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           aliquet urna sed imperdiet.
         </p>
@@ -26,7 +26,7 @@ const Customers = () => {
               <FaStar className="text-[#03A84E] size-[16px] lg:size-[1.4vw] 2xl:size-[32px]" />
               <FaStar className="text-[#03A84E] size-[16px] lg:size-[1.4vw] 2xl:size-[32px]" />
             </div>
-            <p className="2xl:text-[22px] text-[10px] lg:text-[1.2vw] lg:leading-[29px] text-[#0D0D0D] font-medium">
+            <p className="2xl:text-[20px] text-[10px] lg:text-[1.1vw] lg:leading-[29px] text-[#0D0D0D] font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum vel ex tellus.
             </p>
@@ -36,7 +36,7 @@ const Customers = () => {
                 src={Img}
                 alt=""
               />
-              <p className="2xl:text-[22px] text-[10px] lg:text-[1.2vw] font-semibold">
+              <p className="2xl:text-[20px] text-[10px] lg:text-[1.1vw] font-semibold">
                 Victor Dwaelo
               </p>
             </div>
@@ -51,7 +51,7 @@ const Customers = () => {
               <FaStar className="text-[#F90F08] size-[16px] lg:size-[1.4vw] 2xl:size-[32px]" />
               <FaStar className="text-[#F90F08] size-[16px] lg:size-[1.4vw] 2xl:size-[32px]" />
             </div>
-            <p className="2xl:text-[22px] text-[10px] lg:text-[1.2vw] lg:leading-[29px] text-[#0D0D0D] font-medium">
+            <p className="2xl:text-[20px] text-[10px] lg:text-[1.1vw] lg:leading-[29px] text-[#0D0D0D] font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum vel ex tellus.
             </p>
@@ -61,7 +61,7 @@ const Customers = () => {
                 src={Img}
                 alt=""
               />
-              <p className="2xl:text-[22px] text-[10px] lg:text-[1.2vw] font-semibold">
+              <p className="2xl:text-[20px] text-[10px] lg:text-[1.1vw] font-semibold">
                 Victor Dwaelo
               </p>
             </div>
@@ -76,7 +76,7 @@ const Customers = () => {
               <FaStar className="text-[#E76D07] size-[16px] lg:size-[1.4vw] 2xl:size-[32px]" />
               <FaStar className="text-[#E76D07] size-[16px] lg:size-[1.4vw] 2xl:size-[32px]" />
             </div>
-            <p className="2xl:text-[22px] text-[10px] lg:text-[1.2vw] lg:leading-[29px] text-[#0D0D0D] font-medium">
+            <p className="2xl:text-[20px] text-[10px] lg:text-[1.1vw] lg:leading-[29px] text-[#0D0D0D] font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Vestibulum vel ex tellus.
             </p>
@@ -86,7 +86,7 @@ const Customers = () => {
                 src={Img}
                 alt=""
               />
-              <p className="2xl:text-[22px] text-[10px] lg:text-[1.2vw] font-semibold">
+              <p className="2xl:text-[20px] text-[10px] lg:text-[1.1vw] font-semibold">
                 Victor Dwaelo
               </p>
             </div>

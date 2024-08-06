@@ -50,7 +50,7 @@ const More = () => {
 
         {/* ITEMS */}
 
-        <div className="grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 relative gap-[10px] lg:gap-5 2xl:gap-8 pt-8 pb-10 lg:pt-16">
+        <div className="grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 relative gap-[10px] lg:gap- 2xl:gap-8 pt-8 pb-10 lg:pt-16">
           {Items.map((item, index) => {
             return (
               <div

@@ -399,49 +399,49 @@ const Hero = () => {
             Image == 0
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[50%] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[30%] bg-[#E78707] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 1
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[50%] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[30%] bg-[#BA0000] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 2
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[50%] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[30%] bg-[#03A84E] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 3
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#161616] h-[50%] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[30%] bg-[#161616] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 4
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#E78707] h-[50%] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[30%] bg-[#E78707] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 5
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#BA0000] h-[50%] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[30%] bg-[#BA0000] h-[50%] lg:h-full`}
         ></div>
         <div
           className={`absolute ${
             Image == 6
               ? "lg:translate-x-0 translate-y-0"
               : "lg:translate-x-[120vw] -translate-y-[120vh]"
-          } duration-500 top-0 z-[99] right-0 w-full lg:w-[32%] bg-[#03A84E] h-[50%] lg:h-full`}
+          } duration-500 top-0 z-[99] right-0 w-full lg:w-[30%] bg-[#03A84E] h-[50%] lg:h-full`}
         ></div>
       </div>
     </div>

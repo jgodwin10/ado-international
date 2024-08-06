@@ -18,20 +18,20 @@ const TopBar = () => {
         </div>
         <div className="flex items-center gap-[2vw] 2xl:gap-[40px] justify-between">
           <div className="flex cursor-pointer items-center gap-x-[11px]">
-            <img className="cursor-pointer" src={Heart} alt="" />
-            <p className="2xl:text-[20px] text-[1.1vw] text-[#161616] font-bold">
+            <img className="cursor-pointer size-[1.5vw]" src={Heart} alt="" />
+            <p className=" text-[2vw] lg:text-[1vw] text-[#161616] font-bold">
               Liked
             </p>
           </div>
           <div className="flex cursor-pointer items-center gap-x-[11px]">
-            <img className="cursor-pointer" src={Cart} alt="" />
-            <p className="2xl:text-[20px] text-[1.1vw] text-[#161616] font-bold">
+            <img className="cursor-pointer size-[1.5vw]" src={Cart} alt="" />
+            <p className=" text-[2vw] lg:text-[1vw] text-[#161616] font-bold">
               Cart
             </p>
           </div>
           <div className="flex cursor-pointer items-center gap-x-[11px]">
-            <img className="cursor-pointer" src={User} alt="" />
-            <p className="2xl:text-[20px] text-[1.1vw] text-[#161616] font-bold">
+            <img className="cursor-pointer size-[1.5vw]" src={User} alt="" />
+            <p className=" text-[2vw] lg:text-[1vw] text-[#161616] font-bold">
               Login
             </p>
           </div>
