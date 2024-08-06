@@ -67,13 +67,25 @@ const Hero = () => {
       </div>
       <div className="bg-white items-center flex lg:hidden fixed z-[999999] left-0 w-full -top-1 justify-between py-6 px-6">
         <div className="flex items-center gap-x-4">
-          <img src={Nav} alt="" />
+          <img className="cursor-pointer" src={Nav} alt="" />
           <img className="w-[110px]" src={Logo} alt="" />
         </div>
         <div className="flex gap-x-[15px] items-center">
-          <img src={Heart} alt="" />
-          <img src={Cart} alt="" />
-          <img src={User} alt="" />
+          <img
+            className="size-[7.5vw] md:size-auto cursor-pointer"
+            src={Heart}
+            alt=""
+          />
+          <img
+            className="size-[7.5vw] md:size-auto cursor-pointer"
+            src={Cart}
+            alt=""
+          />
+          <img
+            className="size-[7.5vw] md:size-auto cursor-pointer"
+            src={User}
+            alt=""
+          />
         </div>
       </div>
 
