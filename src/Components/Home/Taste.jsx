@@ -3,7 +3,7 @@ import Img from "../../Images/taste.gif";
 
 const Taste = () => {
   return (
-    <div className=" md:px-[50px] lg:h-[40vw] h-[195vw] relative 2xl:h-[620px] bg-[#006633]">
+    <div className=" md:px-[80px] lg:h-[40vw] h-[195vw] relative 2xl:h-[620px] bg-[#006633]">
       <div className="max-w-[1600px] lg:grid lg:grid-cols-2 mx-auto">
         <div className="homep bg-black">
           <img

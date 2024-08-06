@@ -11,7 +11,7 @@ const Events = () => {
 
   return (
     <div className="bg-[#FEF9F3]">
-      <div className="max-w-[1552px] py-8 lg:py-16 mx-auto md:px-[50px] pl-6 lg:px-6">
+      <div className="max-w-[1552px] py-8 lg:py-16 mx-auto md:px-[80px] pl-6 ">
         <div className="space-y-[10px] text-center">
           <h2 className="text-[#BA0000] text-[11px] lg:text-[1.2vw] 2xl:text-[22px] events font-semibold">
             NEWS & EVENTS
@@ -20,8 +20,8 @@ const Events = () => {
             Stay in the Know with Us
           </p>
         </div>
-        <div className="lg:overflow-visible overflow-x-scroll">
-          <div className="grid gap-4 lg:gap-8 min-w-[900px] lg:w-full md:pt-10 pt-5 lg:pt-20 pb-6 grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
+        <div className="xl:overflow-visible channel overflow-x-scroll">
+          <div className="grid gap-4 lg:gap-5 min-w-[900px] xl:w-full md:pt-10 pt-5 lg:pt-20 pb-6 grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
             {Image.map((item, index) => {
               return (
                 <div

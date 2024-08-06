@@ -11,11 +11,11 @@ import Left from "../../Images/left.png";
 
 const Product = () => {
   return (
-    <div className="lg:py-20 py-6 md:px-[50px] px-6">
+    <div className="lg:py-20 py-6 md:px-[80px] px-6">
       <div className="max-w-[1600px] mx-auto">
         <div className="flex justify-between items-center">
           <div className="2xl:max-w-[428px] text-center lg:text-start max-w-[210px] mx-auto lg:mx-0 lg:max-w-[26vw]">
-            <h2 className="2xl:text-[43px] text-[22px] lg:text-[2.9vw] font-medium text-black lg:leading-[60px]">
+            <h2 className=" text-[22px] lg:text-[2.5vw] font-medium text-black lg:leading-[3.5vw]">
               Browse our Popular
               <span className="text-[#E78707] pl-2 ">Products</span>
             </h2>
@@ -24,7 +24,7 @@ const Product = () => {
             <p className="underline 2xl:text-[20px] text-[1.3vw] cursor-pointer text-[#F90F08] font-medium">
               View all popular goods
             </p>
-            <img className="size-[66px] cursor-pointer" src={Img} alt="" />
+            <img className="size-[60px] cursor-pointer" src={Img} alt="" />
           </div>
         </div>
 

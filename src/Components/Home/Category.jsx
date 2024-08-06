@@ -27,7 +27,7 @@ const Category = () => {
   ];
 
   return (
-    <div className="lg:py-20 py-6 md:px-[50px] bg-[#fef9f3] px-6">
+    <div className="lg:py-20 py-6 md:px-[80px] bg-[#fef9f3] px-6">
       <div className="max-w-[1600px] mx-auto">
         <div className="flex justify-between items-center">
           <div className="2xl:max-w-[700px] space-y-2  lg:max-w-[40vw] 2xl:space-y-4">

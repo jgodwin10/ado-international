@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = useLocation().pathname;
   return (
     <div
-      className={`md:px-[50px] ${
+      className={`md:px-[80px] ${
         pathname == "/" ? "z-[99999999999] bg-white" : "bg-white"
       } py-6 px-6 z-[9999999999999]`}
     >

@@ -29,15 +29,15 @@ const Hero = () => {
   }, [image]);
 
   return (
-    <div className="md:px-[50px] overflow-hidden bg-[#fef9f3] md:h-[175vw] h-[195vw] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
+    <div className="md:px-[80px] overflow-hidden bg-[#fef9f3] md:h-[175vw] h-[195vw] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
       <div
-        className={`md:px-[50px] absolute top-0 lg:px-6 lg:py-6 left-0 w-full z-[999]`}
+        className={` absolute top-0 md:px-[80px] lg:py-6 left-0 w-full z-[999]`}
       >
         <div
-          className={`max-w-[1600px] hidden  z-[9999] lg:flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
+          className={`max-w-[1600px]  hidden  z-[9999] lg:flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
         >
           <img className="h-[50px] 2xl:w-[223px]" src={Logo} alt="" />
-          <div className="flex justify-evenly 2xl:text-[22px] duration-500 font-medium text-[1.2vw] 2xl:gap-1 gap-2 items-center flex-1 ">
+          <div className="flex justify-evenly  duration-500 font-medium text-[1vw] 2xl:gap-1  items-center flex-1 ">
             <NavLink className={`${Image == 0 && "text-[#E78707] font-bold"}`}>
               Kitchen
             </NavLink>
@@ -60,7 +60,7 @@ const Hero = () => {
               House Keeping
             </NavLink>
           </div>
-          <button className="border-[2px] text-[1vw] 2xl:text-[20px] font-bold hover:scale-[1.1] duration-500 border-white text-white 2xl:w-[190px] w-[10vw] h-[45px] 2xl:h-[60px] rounded-full">
+          <button className="border-[2px] text-[1vw] 2xl:text-[20px] font-bold hover:scale-[1.1] duration-500 border-white text-white 2xl:w-[190px] w-[10vw] h-[3vw]  rounded-full">
             Flea Market
           </button>
         </div>
@@ -70,34 +70,34 @@ const Hero = () => {
           <img className="cursor-pointer" src={Nav} alt="" />
           <img className="w-[110px]" src={Logo} alt="" />
         </div>
-        <div className="flex gap-x-[15px] items-center">
+        <div className="flex gap-x-[13px] items-center">
           <img
-            className="size-[7.5vw] md:size-auto cursor-pointer"
+            className="size-[6vw] md:size-auto cursor-pointer"
             src={Heart}
             alt=""
           />
           <img
-            className="size-[7.5vw] md:size-auto cursor-pointer"
+            className="size-[6vw] md:size-auto cursor-pointer"
             src={Cart}
             alt=""
           />
           <img
-            className="size-[7.5vw] md:size-auto cursor-pointer"
+            className="size-[6vw] md:size-auto cursor-pointer"
             src={User}
             alt=""
           />
         </div>
       </div>
 
-      <div className="max-w-[1600px] pt-[16vh] 2xl:pt-36 mx-auto">
-        <div className="2xl:max-w-[741px] hidden lg:block lg:max-w-[50vw] space-y-[50px]">
+      <div className="max-w-[1600px] pt-[16vh]  mx-auto">
+        <div className=" hidden lg:block lg:max-w-[35vw] space-y-[2vw]">
           <div className="space-y-[16px]">
             {Image == 0 && (
               <>
-                <h2 className="text-[#E78707] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
+                <h2 className="text-[#E78707] text-[3.8vw] font-bold leading-[5vw]">
                   Premium Kitchenwares
                 </h2>
-                <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
+                <p className="text-[#0D0D0D] leading-[1.5vw] text-[1vw] 2xl:text-[20px]">
                   Top-quality kitchenware for every culinary need. Elevate your
                   cooking experience with our premium products.
                 </p>
@@ -105,10 +105,10 @@ const Hero = () => {
             )}
             {Image == 1 && (
               <>
-                <h2 className="text-[#BA0000] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
+                <h2 className="text-[#BA0000] text-[3.8vw] font-bold leading-[5vw]">
                   Reliable Refridgerators
                 </h2>
-                <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
+                <p className="text-[#0D0D0D] leading-[1.5vw] text-[1vw] 2xl:text-[20px]">
                   Keep your food fresh with our reliable refrigeration
                   solutions. Energy-efficient, durable, and designed for
                   convenience.
@@ -117,10 +117,10 @@ const Hero = () => {
             )}
             {Image == 2 && (
               <>
-                <h2 className="text-[#03A84E] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
+                <h2 className="text-[#03A84E] text-[3.8vw] font-bold leading-[5vw]">
                   Elegant Tableware
                 </h2>
-                <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
+                <p className="text-[#0D0D0D] leading-[1.5vw] text-[1vw] 2xl:text-[20px]">
                   Stylish tableware for any dining occasion. Impress your guests
                   and enhance every meal with our elegant collections.
                 </p>
@@ -128,10 +128,10 @@ const Hero = () => {
             )}
             {Image == 3 && (
               <>
-                <h2 className="text-[#0D0D0D] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
+                <h2 className="text-[#0D0D0D] text-[3.8vw] font-bold leading-[5vw]">
                   Standard F&B Supplies
                 </h2>
-                <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
+                <p className="text-[#0D0D0D] leading-[1.5vw] text-[1vw] 2xl:text-[20px]">
                   Comprehensive F&B products for all your needs. High-quality
                   solutions designed for every event and occasion.
                 </p>
@@ -139,10 +139,10 @@ const Hero = () => {
             )}
             {Image == 4 && (
               <>
-                <h2 className="text-[#E78707] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
+                <h2 className="text-[#E78707] text-[3.8vw] font-bold leading-[5vw]">
                   Durable Furnitures
                 </h2>
-                <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
+                <p className="text-[#0D0D0D] leading-[1.5vw] text-[1vw] 2xl:text-[20px]">
                   Durable and stylish furniture for any space. Comfort,
                   elegance, and functionality combined for your satisfaction.
                 </p>
@@ -150,10 +150,10 @@ const Hero = () => {
             )}
             {Image == 5 && (
               <>
-                <h2 className="text-[#BA0000] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
+                <h2 className="text-[#BA0000] text-[3.8vw] font-bold leading-[5vw]">
                   Hotel Comfort Supplies
                 </h2>
-                <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
+                <p className="text-[#0D0D0D] leading-[1.5vw] text-[1vw] 2xl:text-[20px]">
                   Premium supplies for unmatched hotel comfort. Enhance your
                   guests' stay with our top-quality products.
                 </p>
@@ -161,10 +161,10 @@ const Hero = () => {
             )}
             {Image == 6 && (
               <>
-                <h2 className="text-[#03A84E] text-[4.2vw] font-bold leading-[6vw] 2xl:leading-[120px] 2xl:text-[84px]">
+                <h2 className="text-[#03A84E] text-[3.8vw] font-bold leading-[5vw]">
                   Housekeeping Essentials
                 </h2>
-                <p className="text-[#0D0D0D] leading-[45px] text-[1.3vw] 2xl:text-[20px]">
+                <p className="text-[#0D0D0D] leading-[1.5vw] text-[1vw] 2xl:text-[20px]">
                   Keep your space spotless and organized. Reliable tools
                   designed for every cleaning task, ensuring pristine results.
                 </p>
@@ -180,7 +180,7 @@ const Hero = () => {
               Image == 5 && "bg-[#BA0000]"
             }  ${
               Image == 6 && "bg-[#03A84E]"
-            } hover:scale-[1.1] duration-500 text-white uppercase 2xl:w-[271px] h-[4.5vw] w-[13vw] 2xl:h-[74px] rounded-[1vw] text-[1.3vw] 2xl:text-[22px] font-medium`}
+            } hover:scale-[1.1] duration-500 text-white uppercase  h-[3.5vw] w-[11vw]  rounded-[1vw] text-[1vw] font-medium`}
           >
             order now!
           </button>
@@ -194,10 +194,10 @@ const Hero = () => {
               <div className="space-y-[3.5vw]">
                 {Image == 0 && (
                   <>
-                    <h2 className="text-[#E78707] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
+                    <h2 className="text-[#E78707] text-[10vw] md:max-w-[60vw] md:text-[7vw] md:leading-[110px] font-bold">
                       Premium Kitchenwares
                     </h2>
-                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.3vw] 2xl:text-[20px]">
                       Top-quality kitchenware for every culinary need. Elevate
                       your cooking experience with our premium products.
                     </p>
@@ -205,10 +205,10 @@ const Hero = () => {
                 )}
                 {Image == 1 && (
                   <>
-                    <h2 className="text-[#BA0000] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
+                    <h2 className="text-[#BA0000] text-[10vw] md:max-w-[60vw] md:text-[7vw] md:leading-[110px] font-bold">
                       Reliable Refridgerators
                     </h2>
-                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.3vw] 2xl:text-[20px]">
                       Keep your food fresh with our reliable refrigeration
                       solutions. Energy-efficient, durable, and designed for
                       convenience.
@@ -217,10 +217,10 @@ const Hero = () => {
                 )}
                 {Image == 2 && (
                   <>
-                    <h2 className="text-[#03A84E] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
+                    <h2 className="text-[#03A84E] text-[10vw] md:max-w-[60vw] md:text-[7vw] md:leading-[110px] font-bold">
                       Elegant Tableware
                     </h2>
-                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.3vw] 2xl:text-[20px]">
                       Stylish tableware for any dining occasion. Impress your
                       guests and enhance every meal with our elegant
                       collections.
@@ -229,10 +229,10 @@ const Hero = () => {
                 )}
                 {Image == 3 && (
                   <>
-                    <h2 className="text-[#0D0D0D] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
+                    <h2 className="text-[#0D0D0D] text-[10vw] md:max-w-[60vw] md:text-[7vw] md:leading-[110px] font-bold">
                       Standard F&B Supplies
                     </h2>
-                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.3vw] 2xl:text-[20px]">
                       Comprehensive F&B products for all your needs.
                       High-quality solutions designed for every event and
                       occasion.
@@ -241,10 +241,10 @@ const Hero = () => {
                 )}
                 {Image == 4 && (
                   <>
-                    <h2 className="text-[#E78707] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
+                    <h2 className="text-[#E78707] text-[10vw] md:max-w-[60vw] md:text-[7vw] md:leading-[110px] font-bold">
                       Durable Furnitures
                     </h2>
-                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.3vw] 2xl:text-[20px]">
                       Durable and stylish furniture for any space. Comfort,
                       elegance, and functionality combined for your
                       satisfaction.
@@ -253,10 +253,10 @@ const Hero = () => {
                 )}
                 {Image == 5 && (
                   <>
-                    <h2 className="text-[#BA0000] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
+                    <h2 className="text-[#BA0000] text-[10vw] md:max-w-[60vw] md:text-[7vw] md:leading-[110px] font-bold">
                       Hotel Comfort Supplies
                     </h2>
-                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.3vw] 2xl:text-[20px]">
                       Premium supplies for unmatched hotel comfort. Enhance your
                       guests' stay with our top-quality products.
                     </p>
@@ -264,10 +264,10 @@ const Hero = () => {
                 )}
                 {Image == 6 && (
                   <>
-                    <h2 className="text-[#03A84E] text-[11vw] md:leading-[110px] leading-[56px] font-bold">
+                    <h2 className="text-[#03A84E] text-[10vw] md:max-w-[60vw] md:text-[7vw] md:leading-[110px] font-bold">
                       Housekeeping Essentials
                     </h2>
-                    <p className="text-[#0D0D0D] text-[2.5vw] 2xl:text-[20px]">
+                    <p className="text-[#0D0D0D] text-[2.3vw] 2xl:text-[20px]">
                       Keep your space spotless and organized. Reliable tools
                       designed for every cleaning task, ensuring pristine
                       results.
@@ -284,7 +284,7 @@ const Hero = () => {
                   Image == 5 && "bg-[#BA0000]"
                 }  ${
                   Image == 6 && "bg-[#03A84E]"
-                } hover:scale-[1.1] duration-500 text-white uppercase w-[26vw] h-[8vw] rounded-[2vw] text-[2.5vw] font-medium`}
+                } hover:scale-[1.1] duration-500 text-white uppercase w-[23vw] h-[7vw] rounded-[2vw] text-[2.3vw] font-medium`}
               >
                 order now!
               </button>
@@ -387,7 +387,7 @@ const Hero = () => {
             );
           })}
         </div>
-        <div className="absolute z-[999] top-10 lg:top-36 right-[10vw] md:right-[15vw] lg:right-[11vw]">
+        <div className="absolute z-[999] top-10 lg:top-[7.5vw] right-[10vw] md:right-[15vw] lg:right-[11vw]">
           <img
             className="2xl:w-[715px] w-[80vw] md:w-[70vw] lg:w-[35vw]"
             src={image[Image]}

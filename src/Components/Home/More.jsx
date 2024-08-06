@@ -28,7 +28,7 @@ const More = () => {
   ];
 
   return (
-    <div className="lg:py-32 py-4 md:py-16 md:px-[50px]  px-6">
+    <div className="lg:py-32 py-4 md:py-16 md:px-[80px]  px-6">
       <div className="max-w-[1600px] mx-auto">
         <div className="flex justify-between items-center">
           <div className="2xl:max-w-[700px] lg:max-w-[40vw] 2xl:space-y-4">
@@ -50,7 +50,7 @@ const More = () => {
 
         {/* ITEMS */}
 
-        <div className="grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 relative gap-[10px] lg:gap-8 2xl:gap-8 pt-8 pb-10 lg:pt-16">
+        <div className="grid md:grid-cols-3 grid-cols-2 lg:grid-cols-4 relative gap-[10px] lg:gap-5 2xl:gap-8 pt-8 pb-10 lg:pt-16">
           {Items.map((item, index) => {
             return (
               <div
