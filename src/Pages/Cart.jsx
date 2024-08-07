@@ -33,7 +33,7 @@ const Cart = () => {
 
   return (
     <div className="">
-      <div className="bg-[#fef9f3] md:px-[50px] w-full ">
+      <div className="bg-[#fef9f3] md:px-[80px] w-full ">
         <div className="max-w-[1600px] hidden  py-10 gap-8 md:flex md:flex-col lg:flex-row items-center justify-between mx-auto ">
           <div className="flex-1 h-[266px] py-5 pb-6 bg-white cart ">
             <h2 className="text-[#787878] px-7 pb-3 text-[1.5vw] font-semibold">

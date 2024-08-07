@@ -11,6 +11,7 @@ import AboutUs from "./Pages/AboutUs.jsx";
 import Distribution from "./Pages/Distribution.jsx";
 import Cart from "./Pages/Cart.jsx";
 import Products from "./Pages/Products.jsx";
+import Kitchen from "./Pages/Kitchen.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/kitchen",
+        element: <Kitchen />,
       },
     ],
   },

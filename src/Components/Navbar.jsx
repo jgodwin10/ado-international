@@ -44,7 +44,7 @@ const Navbar = () => {
           Flea Market
         </button>
       </div>
-      <div className="bg-white items-center flex lg:hidden fixed z-[999999] left-0 w-full -top-1 justify-between py-6 px-6">
+      <div className="bg-white items-center flex lg:hidden fixed z-[999999] left-0 w-full -top-1 justify-between py-6 md:px-[40px] px-6">
         <div className="flex items-center gap-x-4">
           <img
             onClick={() => setNavOpen(true)}
@@ -56,17 +56,17 @@ const Navbar = () => {
         </div>
         <div className="flex gap-x-[15px] items-center">
           <img
-            className="size-[7.5vw] md:size-auto cursor-pointer"
+            className="size-[7.5vw] sm:size-auto cursor-pointer"
             src={Heart}
             alt=""
           />
           <img
-            className="size-[7.5vw] md:size-auto cursor-pointer"
+            className="size-[7.5vw] sm:size-auto cursor-pointer"
             src={Cart}
             alt=""
           />
           <img
-            className="size-[7.5vw] md:size-auto cursor-pointer"
+            className="size-[7.5vw] sm:size-auto cursor-pointer"
             src={User}
             alt=""
           />
@@ -77,12 +77,12 @@ const Navbar = () => {
       <div
         className={`fixed top-0 ${
           navOpen ? "translate-x-0" : "-translate-x-[120vw]"
-        } duration-500 left-0 w-[90%] h-full bg-white z-[9999999]`}
+        } duration-500 left-0 w-[90%] lg:hidden h-full bg-white z-[9999999]`}
       >
         <div className="flex px-6 items-center gap-x-7 py-4">
           <LiaTimesSolid
             onClick={() => setNavOpen(false)}
-            className="size-[8vw]"
+            className="size-[8vw] md:size-[3vw] cursor-pointer"
           />
           <img className="w-[110px]" src={Logo} alt="" />
         </div>

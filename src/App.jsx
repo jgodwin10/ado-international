@@ -18,7 +18,7 @@ const App = () => {
     <>
       <TopBar />
       <div
-        className={`lg:mt-[87px] ${
+        className={`lg:mt-[5.5vw] 2xl:mt-[80px] ${
           pathname.pathname == "/" ? "mt-[75px]" : "mt-[28px]"
         } overflow-hidden`}
       >
