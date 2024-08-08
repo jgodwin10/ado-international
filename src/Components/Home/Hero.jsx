@@ -51,7 +51,7 @@ const Hero = () => {
             src={Logo}
             alt=""
           />
-          <div className="flex justify-evenly  duration-500 font-medium text-[1vw] 2xl:gap-1  items-center flex-1 ">
+          <div className="flex justify-evenly  duration-500 font-medium p 2xl:gap-1  items-center flex-1 ">
             <NavLink className={`${Image == 0 && "text-[#E78707] font-bold"}`}>
               Kitchen
             </NavLink>
@@ -469,7 +469,7 @@ const Hero = () => {
               <div
                 key={index}
                 onClick={() => setImage(index)}
-                className={`2xl:size-[105px] lg:size-[6vw] size-[48px] rounded-[1.2vw] cursor-pointer ${
+                className={`2xl:size-[105px] lg:size-[5vw] size-[48px] rounded-[1.2vw] cursor-pointer ${
                   Image == index && index == 0
                     ? "hero border-[2px] border-[#E78707]"
                     : ""
@@ -504,7 +504,7 @@ const Hero = () => {
                 } bg-white hover:scale-[1.1] duration-500 flex justify-center items-center`}
               >
                 <img
-                  className="2xl:size-[80px] size-[38px] lg:size-[4vw]"
+                  className=" size-[38px] lg:size-[80%]"
                   src={item}
                   alt=""
                 />

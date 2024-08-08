@@ -27,55 +27,55 @@ const Category = () => {
   ];
 
   return (
-    <div className="lg:py-20 py-6 md:px-[80px] bg-[#fef9f3] px-6">
+    <div className="min-[1900px]:py-20 lg:py-[4vw] py-6 md:px-[80px] bg-[#fef9f3] px-6">
       <div className="max-w-[1600px] mx-auto">
         <div className="flex justify-between items-center">
-          <div className="2xl:max-w-[700px] space-y-2  lg:max-w-[40vw] 2xl:space-y-4">
-            <h2 className="2xl:text-[45px] text-[21px] lg:text-[1.9vw] font-medium text-black lg:leading-[60px]">
+          <div className="min-[1900px]:max-w-[700px] lg:max-w-[40vw]">
+            <h2 className="min-[1900px]:text-[45px] text-[5.5vw] sm:text-[3.3vw] lg:text-[1.9vw] font-medium leading-[50px] text-black md:leading-[60px]">
               Browse our Category
             </h2>
-            <p className="text-[#0D0D0D] leading-[30px] lg:leading-0 font-medium text-[15px] lg:text-[1.2vw] 2xl:text-[22px]">
+            <p className="text-[#0D0D0D] sm:text-[2vw] text-[3vw] md:pt-1  lg:text-[1.2vw] min-[1900px]:text-[22px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               aliquet urna sed imperdiet.
             </p>
           </div>
           <div className="lg:flex hidden justify-center gap-3 items-center">
-            <p className="underline text-[1.3vw] 2xl:text-[22px] cursor-pointer text-[#F90F08] font-medium">
-              View all categories
+            <p className="underline min-[1900px]:text-[20px] h4 cursor-pointer text-[#F90F08] font-medium">
+              View all category
             </p>
-            <img className="size-[66px] cursor-pointer" src={Img} alt="" />
+            <img className="size-[3vw] cursor-pointer" src={Img} alt="" />
           </div>
         </div>
 
         {/* ITEMS */}
 
-        <div className="lg:overflow-visible channel overflow-x-scroll">
-          <div className="grid grid-cols-4 min-w-[700px] lg:w-full relative gap-4 2xl:gap-8 pt-8 pb-6 lg:pt-16">
+        <div className=" channel  overflow-y-hidden  overflow-x-scroll">
+          <div className="flex min-w-[900px] min-[1900px]:w-full scroll lg:min-w-[1400px] gap-4 pt-6 lg:pt-[3vw] min-[1900px]:pt-16">
             {Items.map((item, index) => {
               return (
                 <div
                   key={index}
-                  className="bg-white category lg:hover:scale-[1.07] 2xl:hover:scale-[1.1] overflow-hidden cursor-pointer duration-500 w-[170px]  lg:h-full md:w-full rounded-[15px]"
+                  className="bg-white category  overflow-hidden cursor-pointer duration-500 w-[170px]  h-fit md:w-full rounded-[15px]"
                 >
                   <div className="lg:py-8 p-4 lg:px-6">
                     <img
-                      className="lg:w-[260px] h-[89px] w-[120px] lg:h-[210px] mx-auto"
+                      className="lg:w-full h-[89px] w-[120px] lg:h-[10vw] min-[1900px]:h-[210px] mx-auto"
                       src={item.image}
                       alt=""
                     />
-                    <div className="lg:pt-6 pt-5 pb-4 gap-y-[8px]">
-                      <p className="2xl:text-[20px] text-[10px] lg:text-[1.2vw] font-semibold text-black">
+                    <div className="lg:pt-[2vw] pt-5 pb-[1vw] gap-y-[8px]">
+                      <p className="min-[1900px]:text-[20px] text-[10px] lg:text-[1vw] font-semibold text-black">
                         {item.title}
                       </p>
                     </div>
                   </div>
-                  <div className="bg-[#0D0D0D] lg:hover:scale-[1.06] duration-500 gap-3 flex justify-center items-center rounded-b-[15px] h-[27px] lg:h-[64px]">
+                  <div className="bg-[#0D0D0D] lg:hover:scale-[1.06] duration-500 gap-3 flex justify-center items-center rounded-b-[15px] h-[27px] lg:h-[4vw] min-[1900px]:h-[64px]">
                     <img
-                      className="lg:w-auto size-[16px] lg:h-auto"
+                      className="min-[1900px]:w-auto size-[16px] lg:size-[2vw] min-[1900px]:h-auto"
                       src={Cart}
                       alt=""
                     />
-                    <p className="text-white text-[8px] lg:text-[1vw] 2xl:text-[18px] font-semibold">
+                    <p className="text-white text-[8px] lg:text-[1vw] min-[1900px]:text-[18px] font-semibold">
                       Add To Cart
                     </p>
                   </div>
