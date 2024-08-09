@@ -21,15 +21,19 @@ const Navbar = () => {
 
   return (
     <div
-      className={`md:px-[80px] ${
+      className={`md:px-10 lg:px-[145px] ${
         pathname == "/" ? "z-[99999999999] bg-white" : "bg-white"
       } py-6 px-6 z-[9999999999999]`}
     >
       <div
         className={`max-w-[1600px] hidden  z-[999999999] lg:flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
       >
-        <img className="h-[50px] 2xl:w-[223px]" src={Logo} alt="" />
-        <div className="flex justify-evenly 2xl:text-[22px] duration-500 font-medium text-[1.2vw] 2xl:gap-1 gap-2 items-center flex-1 ">
+        <img
+          className="2xl:h-[50px] 2xl:w-[223px] w-[10vw]"
+          src={Logo}
+          alt=""
+        />
+        <div className="flex justify-evenly p duration-500 font-medium  2xl:gap-1 gap-2 items-center flex-1 ">
           <NavLink>Kitchen</NavLink>
           <NavLink>Refrigeration</NavLink>
           <NavLink>Table Ware</NavLink>

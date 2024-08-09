@@ -28,7 +28,7 @@ const More = () => {
   ];
 
   return (
-    <div className="min-[1900px]:py-32 lg:py-[4vw] py-4 md:py-[5vw] md:px-[80px]  px-6">
+    <div className="min-[1900px]:py-32 lg:py-[4vw] py-4 md:py-[5vw] md:px-10 lg:px-[145px]  px-6">
       <div className="max-w-[1600px] mx-auto">
         <div className="flex justify-between items-center">
           <div className="min-[1900px]:max-w-[700px] lg:max-w-[40vw] min-[1900px]:space-y-4">

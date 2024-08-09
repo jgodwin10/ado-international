@@ -2,7 +2,7 @@ import React from "react";
 
 const Ready = () => {
   return (
-    <div className="bg-[#FFCC00] md:px-[80px] px-6 w-full h-[177px] lg:h-[13vw] min-[1900px]:h-[364px]">
+    <div className="bg-[#FFCC00] md:px-10 lg:px-[145px] px-6 w-full h-[177px] lg:h-[13vw] min-[1900px]:h-[364px]">
       <div className="max-w-[1600px] h-full flex lg:flex-row flex-col justify-evenly lg:justify-between items-center mx-auto">
         <div className="min-[1900px]:space-y-8 lg:text-start text-center space-y-[1vw]">
           <h2 className="min-[1900px]:text-[45px] text-[21px] lg:text-[2.5vw] text-[#1D1D1D] font-semibold">

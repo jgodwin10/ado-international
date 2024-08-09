@@ -39,9 +39,9 @@ const Hero = () => {
   }, [image]);
 
   return (
-    <div className="md:px-[80px] overflow-hidden bg-[#fef9f3] md:h-[175vw] h-[195vw] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
+    <div className="md:px-10 lg:px-[145px] overflow-hidden bg-[#fef9f3] md:h-[175vw] h-[195vw] lg:h-[90vh]  2xl:h-[90vh] w-full relative px-6">
       <div
-        className={` absolute top-0 md:px-[80px] lg:py-6 left-0 w-full z-[999]`}
+        className={` absolute top-0 md:px-10 lg:px-[145px] lg:py-6 left-0 w-full z-[999]`}
       >
         <div
           className={`max-w-[1600px]  hidden  z-[9999] lg:flex items-center lg:gap-[10px] xl:gap-[21px] justify-between  mx-auto`}
@@ -215,7 +215,7 @@ const Hero = () => {
       {/* END */}
 
       <div className="max-w-[1600px] pt-[8.6vw]  mx-auto">
-        <div className=" hidden lg:block lg:max-w-[25vw] space-y-[2vw]">
+        <div className=" hidden lg:block lg:max-w-[30vw] space-y-[2vw]">
           <div className="space-y-[16px]">
             {Image == 0 && (
               <>

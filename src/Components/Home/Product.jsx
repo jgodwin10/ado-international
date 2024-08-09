@@ -11,7 +11,7 @@ import Left from "../../Images/left.png";
 
 const Product = () => {
   return (
-    <div className="lg:py-[3vw] py-6 md:px-[80px] px-6">
+    <div className="lg:py-[3vw] py-6 md:px-10 lg:px-[145px] px-6">
       <div className="max-w-[1600px] mx-auto">
         <div className="flex justify-between items-center">
           <div className="min-[1900px]:max-w-[408px] text-center lg:text-start max-w-[210px] mx-auto lg:mx-0 lg:max-w-[20vw]">
