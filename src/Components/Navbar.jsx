@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`md:px-10 lg:px-[145px] ${
+      className={`md:px-10 min-[1200px]:px-[145px] min-[1020px]:px-[60px] ${
         pathname == "/" ? "z-[99999999999] bg-white" : "bg-white"
       } py-6 px-6 z-[9999999999999]`}
     >

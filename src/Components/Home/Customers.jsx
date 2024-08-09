@@ -15,7 +15,7 @@ const Customers = () => {
           aliquet urna sed imperdiet.
         </p>
       </div>
-      <div className="absolute min-[1900px]:overflow-visible channel overflow-x-scroll bottom-10 lg:bottom-[3vw] md:px-10 lg:px-[145px] px-6 left-0 w-full">
+      <div className="absolute min-[1900px]:overflow-visible channel overflow-x-scroll bottom-10 lg:bottom-[3vw] md:px-10 min-[1200px]:px-[145px] min-[1020px]:px-[60px] px-6 left-0 w-full">
         <div className="lg:max-w-[1600px] min-w-[1000px] grid grid-cols-3 xl:grid-cols-3 gap-x-6 mx-auto">
           <div className="bg-white min-[1900px]:space-y-[20px] space-y-[13px] relative lg:h-[20vw] min-[1200px]:h-[20vw] 2xl:h-[18vw] min-[1900px]:h-[386px] lg:px-8 p-5 lg:pt-[3vw] w-full lg:w-full">
             <PiQuotes className="rotate-[180deg] size-[17px] lg:size-[1.7vw] text-[#03A84E]" />

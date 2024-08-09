@@ -10,7 +10,7 @@ const Events = () => {
   const Image = [Img, Img2, Img3];
 
   return (
-    <div className="bg-[#FEF9F3] md:px-10 lg:px-[145px] pl-6">
+    <div className="bg-[#FEF9F3] md:px-10 min-[1200px]:px-[145px] min-[1020px]:px-[60px] pl-6">
       <div className="max-w-[1552px] py-8 min-[1900px]:py-16 mx-auto  ">
         <div className="space-y-[10px] text-center">
           <h2 className="text-[#BA0000] text-[11px] lg:text-[1.2vw] min-[1900px]:text-[22px] events font-semibold">

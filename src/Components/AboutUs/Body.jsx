@@ -6,8 +6,8 @@ import Img3 from "../../Images/four.png";
 
 const Body = () => {
   return (
-    <div className="py-20">
-      <div className="max-w-[1700px] pb-20 space-y-[1vw] 2xl:space-y-[25px] mx-auto md:px-[50px] px-6">
+    <div className="lg:py-20 py-[5vw]">
+      <div className="max-w-[1700px] pb-[4vw] lg:pb-20 space-y-[1vw] 2xl:space-y-[25px] mx-auto md:px-10 min-[1200px]:px-[145px] min-[1020px]:px-[60px] px-6">
         <p className="text-[#E78707] text-[1vw] 2xl:text-[18px] font-medium">
           A Taste of Home, Everywhere You Go
         </p>
@@ -23,7 +23,7 @@ const Body = () => {
           they are.
         </p>
       </div>
-      <div className="bg-[url('./Images/about.png')] bg-cover bg-center before:contents-[''] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#E7870799] relative 2xl:max-h-[430px] 2xl:min-h-[428px] h-[40vh] w-full">
+      <div className="bg-[url('./Images/about.png')] bg-cover bg-center before:contents-[''] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#E7870799] relative 2xl:max-h-[430px] 2xl:min-h-[428px] md:h-[22vw] lg:h-[40vh] w-full">
         <div className="flex z-[99999] flex-col gap-y-[1vw] 2xl:gap-y-5 items-center text-white pt-[4vw] 2xl:pt-28 absolute top-0 left-0 w-full h-full">
           <h2 className="2xl:text-[45px] text-[2vw] font-semibold">
             Company Goals & Ethics
@@ -33,8 +33,8 @@ const Body = () => {
           </p>
         </div>
         <div className="absolute -bottom-[6.9vw] 2xl:-bottom-[35%] left-0 w-full">
-          <div className="max-w-[1700px] mx-auto grid grid-cols-2 gap-8 md:px-[50px] px-6">
-            <div className="w-full space-y-7 2xl:py-16 2xl:px-20 py-[3vw] px-[4vw] about bg-white">
+          <div className="max-w-[1700px] mx-auto grid grid-cols-2 gap-8 md:px-10 min-[1200px]:px-[145px] min-[1020px]:px-[60px] px-6">
+            <div className="w-full space-y-[1vw] 2xl:py-16 2xl:px-20 py-[3vw] px-[4vw] about bg-white">
               <h2 className="2xl:text-[22px] text-[1.2vw] font-semibold text-black">
                 Our Mission
               </h2>
@@ -44,7 +44,7 @@ const Body = () => {
                 high-quality meals that make every customer feel at home.
               </p>
             </div>
-            <div className="w-full space-y-7 2xl:py-16 2xl:px-20 py-[3vw] px-[4vw] about bg-white">
+            <div className="w-full space-y-[1vw] 2xl:py-16 2xl:px-20 py-[3vw] px-[4vw] about bg-white">
               <h2 className="2xl:text-[22px] text-[1.2vw] font-semibold text-black">
                 Our Vision
               </h2>
@@ -58,10 +58,14 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="2xl:pt-[250px] pt-[20vh] max-w-[1700px] grid grid-cols-4 gap-x-[30px] pb-3 md:px-[59px] px-6 mx-auto">
-        <div className="flex items-center gap-[13px]">
-          <img className="2xl:size-[68px] size-[5vw]" src={Img} alt="" />
-          <div className="space-y-[13px]">
+      <div className="2xl:pt-[250px] pt-[13vw] lg:pt-[20vh] max-w-[1700px] flex items-center flex-col  md:grid grid-cols-4 gap-x-[30px] pb-3 md:px-[59px] px-6 mx-auto">
+        <div className="flex flex-col md:flex-row items-center gap-[13px]">
+          <img
+            className="2xl:size-[68px] size-[4vw] lg:size-[5vw]"
+            src={Img}
+            alt=""
+          />
+          <div className="space-y-[1vw] md:text-start text-center">
             <h2 className="2xl:text-[22px] text-[1.2vw] font-semibold text-black">
               Fast Shipping
             </h2>
@@ -70,9 +74,13 @@ const Body = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-[13px]">
-          <img className="2xl:size-[68px] size-[5vw]" src={Img1} alt="" />
-          <div className="space-y-[13px]">
+        <div className="flex md:flex-row flex-col items-center gap-[13px]">
+          <img
+            className="2xl:size-[68px] size-[4vw] lg:size-[5vw]"
+            src={Img1}
+            alt=""
+          />
+          <div className="space-y-[1vw] md:text-start text-center">
             <h2 className="2xl:text-[22px] text-[1.2vw] font-semibold text-black">
               Online Support
             </h2>
@@ -81,9 +89,13 @@ const Body = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-[13px]">
-          <img className="2xl:size-[68px] size-[5vw]" src={Img2} alt="" />
-          <div className="space-y-[13px]">
+        <div className="flex md:flex-row flex-col items-center gap-[13px]">
+          <img
+            className="2xl:size-[68px] size-[4vw] lg:size-[5vw]"
+            src={Img2}
+            alt=""
+          />
+          <div className="space-y-[1vw] md:text-start text-center">
             <h2 className="2xl:text-[22px] text-[1.2vw] font-semibold text-black">
               Flexible Payment
             </h2>
@@ -92,9 +104,13 @@ const Body = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-[13px]">
-          <img className="2xl:size-[68px] size-[5vw]" src={Img3} alt="" />
-          <div className="space-y-[13px]">
+        <div className="flex md:flex-row flex-col items-center gap-[13px]">
+          <img
+            className="2xl:size-[68px] size-[4vw] lg:size-[5vw]"
+            src={Img3}
+            alt=""
+          />
+          <div className="space-y-[1vw] md:text-start text-center">
             <h2 className="2xl:text-[22px] text-[1.2vw] font-semibold text-black">
               Money Guarantee
             </h2>
