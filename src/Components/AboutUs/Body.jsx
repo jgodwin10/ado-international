@@ -58,7 +58,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="2xl:pt-[250px] pt-[13vw] space-y-[15vw] pb-[15vw] lg:pt-[20vh] max-w-[1700px] flex items-center flex-col  md:grid grid-cols-4 md:gap-x-[30px] md:pb-3 md:px-[59px] px-6 mx-auto">
+      <div className="2xl:pt-[250px] pt-[13vw] space-y-[15vw] md:space-y-0 pb-[15vw] lg:pt-[20vh] max-w-[1700px] flex items-center flex-col  md:grid grid-cols-4 md:gap-x-[30px] md:pb-3 md:px-[59px] px-6 mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-[13px]">
           <img
             className="2xl:size-[68px] size-[16vw] md:size-[4vw] lg:size-[5vw]"
