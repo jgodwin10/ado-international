@@ -12,6 +12,7 @@ import Distribution from "./Pages/Distribution.jsx";
 import Cart from "./Pages/Cart.jsx";
 import Products from "./Pages/Products.jsx";
 import Kitchen from "./Pages/Kitchen.jsx";
+import Refrigeration from "./Pages/Refrigeration.jsx";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/kitchen",
         element: <Kitchen />,
+      },
+      {
+        path: "refrigeration",
+        element: <Refrigeration />,
       },
     ],
   },

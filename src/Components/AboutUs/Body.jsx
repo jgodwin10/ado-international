@@ -23,7 +23,7 @@ const Body = () => {
           they are.
         </p>
       </div>
-      <div className="bg-[url('./Images/about.png')] h-[120vw] bg-cover bg-center before:contents-[''] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#E7870799] relative 2xl:max-h-[430px] 2xl:min-h-[428px] md:h-[22vw] lg:h-[40vh] w-full">
+      <div className="bg-[url('./Images/about.png')] h-[130vw] bg-cover bg-center before:contents-[''] before:absolute before:h-full before:w-full before:top-0 before:left-0 before:bg-[#E7870799] relative 2xl:max-h-[430px] 2xl:min-h-[428px] md:h-[22vw] lg:h-[40vh] w-full">
         <div className="flex z-[99999] flex-col md:gap-y-[1vw] 2xl:gap-y-5 items-center text-white pt-[4vw] 2xl:pt-28 absolute top-0 left-0 w-full h-full">
           <h2 className="2xl:text-[45px] text-[21px] md:text-[2vw] font-semibold">
             Company Goals & Ethics

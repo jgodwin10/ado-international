@@ -34,8 +34,22 @@ const Navbar = () => {
           alt=""
         />
         <div className="flex justify-evenly p duration-500 font-medium  2xl:gap-1 gap-2 items-center flex-1 ">
-          <NavLink>Kitchen</NavLink>
-          <NavLink>Refrigeration</NavLink>
+          <NavLink
+            className={`${
+              pathname.includes("kitchen") && "text-[#E78707] font-bold"
+            }`}
+            to={"/kitchen"}
+          >
+            Kitchen
+          </NavLink>
+          <NavLink
+            className={`${
+              pathname.includes("refrigeration") && "text-[#03A84E] font-bold"
+            }`}
+            to={"/refrigeration"}
+          >
+            Refrigeration
+          </NavLink>
           <NavLink>Table Ware</NavLink>
           <NavLink>F&B</NavLink>
           <NavLink>Furniture</NavLink>
@@ -94,7 +108,9 @@ const Navbar = () => {
         <div className="overflow-y-scroll channel h-full">
           <div className="px-6 text-[15px] space-y-[35px] font-medium py-3">
             <div className="flex  justify-between items-center">
-              <p>Kitchen</p>
+              <NavLink onClick={() => setNavOpen(false)} to={"/kitchen"}>
+                Kitchen
+              </NavLink>
               <img src={Chevron} alt="" />
             </div>
             <div className="flex  justify-between items-center">

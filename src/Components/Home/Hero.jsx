@@ -52,10 +52,16 @@ const Hero = () => {
             alt=""
           />
           <div className="flex justify-evenly  duration-500 font-medium p 2xl:gap-1  items-center flex-1 ">
-            <NavLink className={`${Image == 0 && "text-[#E78707] font-bold"}`}>
+            <NavLink
+              to={"/kitchen"}
+              className={`${Image == 0 && "text-[#E78707] font-bold"}`}
+            >
               Kitchen
             </NavLink>
-            <NavLink className={`${Image == 1 && "text-[#BA0000] font-bold"}`}>
+            <NavLink
+              to={"/refrigeration"}
+              className={`${Image == 1 && "text-[#BA0000] font-bold"}`}
+            >
               Refrigeration
             </NavLink>
             <NavLink className={`${Image == 2 && "text-[#03A84E] font-bold"}`}>
@@ -125,7 +131,7 @@ const Hero = () => {
         <div className="overflow-y-scroll channel h-full">
           <div className="px-6 text-[15px] space-y-[35px] font-medium py-3">
             <div className="flex  justify-between items-center">
-              <p>Kitchen</p>
+              <NavLink to={"/kitchen"}>Kitchen</NavLink>
               <img src={Chevron} alt="" />
             </div>
             <div className="flex  justify-between items-center">
@@ -503,11 +509,7 @@ const Hero = () => {
                     : ""
                 } bg-white hover:scale-[1.1] duration-500 flex justify-center items-center`}
               >
-                <img
-                  className=" size-[38px] lg:size-[80%]"
-                  src={item}
-                  alt=""
-                />
+                <img className=" size-[38px] lg:size-[80%]" src={item} alt="" />
               </div>
             );
           })}
